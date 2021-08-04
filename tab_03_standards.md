@@ -76,7 +76,7 @@ function openStandardFromURL(evt) {
   <button id="QualitativeSurveys_b"     class="tablinks" onclick="openStandard(event, 'QualitativeSurveys')">Qualitative Surveys</button>
   <button id="QuantitativeSimulation_b" class="tablinks" onclick="openStandard(event, 'QuantitativeSimulation')">Quantitative Simulation</button>
   <button id="QuestionnaireSurveys_b"   class="tablinks" onclick="openStandard(event, 'QuestionnaireSurveys')">Questionnaire Surveys</button>
-  <button id="SystematicReviews_b"      class="tablinks" onclick="openStandard(event, 'SystematicReviews')">Systematic Reviews</button>
+  <button id="SystematicReviews_b"      class="tablinks" onclick="openStandard(event, 'SystematicReviews_SPA')">Revisión Sistemática</button>
 </div>
 <br>
 <br>
