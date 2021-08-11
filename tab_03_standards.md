@@ -61,15 +61,15 @@ function openStandardFromURL(evt) {
 <body onload="openStandardFromURL(event)">
 
 <div class="tab">
-  <button id="GeneralStandard_b"        class="tablinks" onclick="openStandard(event, 'GeneralStandard')">General Standard</button>
+  <button id="GeneralStandard_b"        class="tablinks" onclick="openStandard(event, 'GeneralStandard')">Estándar general</button>
   <button id="ActionResearch_b"         class="tablinks" onclick="openStandard(event, 'ActionResearch')">Action Research</button>
   <button id="Benchmarking_b"           class="tablinks" onclick="openStandard(event, 'Benchmarking')">Benchmarking</button>
-  <button id="CaseStudy_b"              class="tablinks" onclick="openStandard(event, 'CaseStudy')">Case Study</button>
+  <button id="CaseStudy_b"              class="tablinks" onclick="openStandard(event, 'CaseStudy')">Estudio de Caso</button>
   <button id="CaseSurvey_b"             class="tablinks" onclick="openStandard(event, 'CaseSurvey')">Case Survey</button>
   <button id="DataScience_b"            class="tablinks" onclick="openStandard(event, 'DataScience')">Data Science</button>
   <button id="EngineeringResearch_b"    class="tablinks" onclick="openStandard(event, 'EngineeringResearch')">Engineering Research</button>
-  <button id="Experiments_b"            class="tablinks" onclick="openStandard(event, 'Experiments')">Experiments</button>
-  <button id="GroundedTheory_b"         class="tablinks" onclick="openStandard(event, 'GroundedTheory')">Grounded Theory</button>
+  <button id="Experiments_b"            class="tablinks" onclick="openStandard(event, 'Experiments')">Experimentos</button>
+  <button id="GroundedTheory_b"         class="tablinks" onclick="openStandard(event, 'GroundedTheory')">Teoría Fundamentada</button>
   <button id="Longitudinal_b"           class="tablinks" onclick="openStandard(event, 'Longitudinal')">Longitudinal</button>
   <button id="MetaScience_b"            class="tablinks" onclick="openStandard(event, 'MetaScience')">Meta Science </button>
   <button id="MixedMethods_b"           class="tablinks" onclick="openStandard(event, 'MixedMethods')">Mixed Methods </button>
@@ -77,13 +77,13 @@ function openStandardFromURL(evt) {
   <button id="QualitativeSurveys_b"     class="tablinks" onclick="openStandard(event, 'QualitativeSurveys')">Qualitative Surveys</button>
   <button id="QuantitativeSimulation_b" class="tablinks" onclick="openStandard(event, 'QuantitativeSimulation')">Quantitative Simulation</button>
   <button id="QuestionnaireSurveys_b"   class="tablinks" onclick="openStandard(event, 'QuestionnaireSurveys')">Questionnaire Surveys</button>
-  <button id="SystematicReviews_b"      class="tablinks" onclick="openStandard(event, 'SystematicReviews_SPA')">Revisión Sistemática</button>
+  <button id="SystematicReviews_b"      class="tablinks" onclick="openStandard(event, 'SystematicReviews')">Revisión Sistemática</button>
 </div>
 <br>
 <br>
 <div id="GeneralStandard" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/GeneralStandard.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/GeneralStandard_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="General Standard">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
@@ -103,7 +103,7 @@ function openStandardFromURL(evt) {
 
 <div id="CaseStudy" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/CaseStudy.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/CaseStudy_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Case Study and Ethnography">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
@@ -131,14 +131,14 @@ function openStandardFromURL(evt) {
 
 <div id="Experiments" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/Experiments.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/Experiments_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Experiments (with Human Participants)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="GroundedTheory" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/GroundedTheory.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/GroundedTheory_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Grounded Theory">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
@@ -192,7 +192,7 @@ function openStandardFromURL(evt) {
 
 <div id="SystematicReviews" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/SystematicReviews.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/SystematicReviews_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Systematic Reviews">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
