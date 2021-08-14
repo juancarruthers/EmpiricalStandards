@@ -1,10 +1,10 @@
-# Experiments (with Human Participants) 
+# Experimentos (con Participantes Humanos) 
 <standard name="Experiments (with Human Participants)">
 
 *Un estudio en el que se introduce deliberadamente una intervención para observar
 sus efectos sobre algunos aspectos de la realidad en condiciones controladas*
 
-## Application 
+## Aplicación
 
 Esta norma se aplica a experimentos controlados y cuasiexperimentos
 que cumplen las siguientes condiciones (todas):
@@ -20,9 +20,9 @@ incluyen diseños inter-sujetos, intra-sujetos y medidas repetidas.
 Para experimentos sin participantes humanos, consulte el **Estándar de Ciencia de Datos
 Exploratorios** o el **Estándar de Investigación de Ingeniería**.
 
-## Specific Attributes 
+## Atributos Específicos
 
-### Essential Attributes
+### Atributos Esenciales
 <checklist name="Essential">
 
 <intro>
@@ -58,7 +58,7 @@ Exploratorios** o el **Estándar de Investigación de Ingeniería**.
 
 </checklist>
      
-### Desirable Attributes
+### Atributos Deseables
 <checklist name="Desirable">
 
 - [ ]	Proporciona material complementario, como un protocolo completo de los pasos; material de las tareas; conjunto de datos sin procesar y sin identificar,guiones de análisis
@@ -75,20 +75,20 @@ Exploratorios** o el **Estándar de Investigación de Ingeniería**.
 - [ ]	distingue claramente los resultados basados en la evidencia de las interpretaciones y la especulación<sup>[3](#myfootnote3)</sup>
 </checklist>
      
-### Extraordinary Attributes
+### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
 - [ ]	Reporta múltiples experimentos o réplicas en diferentes culturas o regiones
 - [ ]	Utiliza múltiples métodos de recopilación de datos; triangulación de datos
-- [ ]	Recopilación de datos longitudinales con análisis de series de tiempo adecuados (consulte el [Estándar de estudios Longitudinales](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/Longitudinal.md))
+- [ ]	Recopilación de datos longitudinales con análisis de series de tiempo adecuados (consulte el [Estándar de estudios Longitudinales](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/Longitudinal.md))
 </checklist>
 
-## General Quality Criteria 
+## Criterios Generales de Calidad
 
 Validez de conclusión, validez de constructo, validez interna, confiabilidad,
 objetividad, reproducibilidad
 
-## Antipatterns 
+## Antipatrones
 
 -   Uso de proxy incorrectos para variables dependientes (por ejemplo, la duración 
     de la tarea como un proxy para la complejidad de la tarea)
@@ -102,7 +102,7 @@ objetividad, reproducibilidad
 -   Las amenazas de validez se enumeran simplemente sin vincularlas a los resultados.
 -   Faltan hipótesis
 
-## Invalid criticisms
+## Críticas Inválidas
 
 -   Los participantes son estudiantes: la idoneidad de las características de los participantes
     debe juzgarse en función del contexto, el nivel de control deseado,
@@ -116,7 +116,7 @@ objetividad, reproducibilidad
     un experimento
 -   No hay suficientes participantes (a menos que esté respaldado por un análisis de potencia)
 
-## Exemplars
+## Ejemplares
 
 Dag IK Sjøberg, Aiko Yamashita, Bente CD Anda, Audris Mockus, and Tore
 Dybå. 2012. Quantifying the Effect of Code Smells on Maintenance Effort.
@@ -150,7 +150,7 @@ Experiment with Novice Developers on the Impact of Task Description
 Granularity on Software Quality in Test-Driven Development. *IEEE
 Transactions on Software Engineering.* DOI: 10.1109/TSE.2019.2920377
 
-## Suggested Reading
+## Lecturas Sugeridas
 
 Nathaniel L. Gage and Julian C. Stanley. 1963. Experimental and Quasi-experimental Designs For Research. Chicago: R. McNally.
 

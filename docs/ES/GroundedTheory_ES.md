@@ -1,11 +1,11 @@
-﻿# Grounded Theory
+﻿# Teoría Fundamentada
 <standard name="Grounded Theory">
 
 *Un estudio de un área de interés o fenómeno específico que implica rondas 
 iterativas e intercaladas de recopilación y análisis de datos cualitativos, 
 que conducen a patrones clave (por ejemplo, conceptos, categorías)*
 
-## Application 
+## Aplicacion 
 
 Este estándar aplica a las investigaciones empíricas que cumplen todas 
 las siguientes condiciones:
@@ -21,9 +21,9 @@ Para investigaciones predominantemente cualitativas que no alternan entre la
 recopilación y el análisis de datos o que no utilizan muestreo teórico, 
 considere el **Estándar de Estudio de Caso** o el **Estándar de Encuesta Cualitativa**.
 
-## Specific Attributes 
+## Atributos Específicos
 
-### Essential Attributes 
+### Atributos Esenciales
 <checklist name="Essential">
 
 <intro>
@@ -48,7 +48,7 @@ considere el **Estándar de Estudio de Caso** o el **Estándar de Encuesta Cuali
   
 </checklist>
      
-### Desirable Attributes  
+### Atributos Deseables
 <checklist name="Desirable">
 
 - [ ]   Proporciona materiales complementarios tales como guías para entrevistas, esquemas de codificación, ejemplos de codificación, reglas de decisión o tablas de cadena de evidencia extendida
@@ -65,14 +65,14 @@ considere el **Estándar de Estudio de Caso** o el **Estándar de Encuesta Cuali
 - [ ]   Explica el papel de la literatura, especialmente donde una revisión extensa precedió al estudio TF
 </checklist>
      
-### Extraordinary Attributes 
+### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
 - [ ]   Triangula con datos cuantitativos extensos (por ejemplo, cuestionarios, análisis de sentimientos)
 - [ ]   Emplea a un equipo de investigadores y explica sus funciones
 </checklist>
 
-## Quality Criteria 
+## Criterios de Calidad
 
 Glaser, Strauss, Corbin y Charmaz proponen criterios de calidad inconsistentes. 
 Al usar las definiciones de nuestro **Glosario**, los revisores deben considerar
@@ -82,13 +82,13 @@ Los criterios de calidad cuantitativos como la validez interna, la validez de
 constructo, la replicabilidad, la generalización y la confiabilidad generalmente 
 no se aplican.
 
-## Examples of Acceptable Deviations 
+## Ejemplos de Desviaciones Aceptables 
 
 -   En un estudio de acoso sexual en una organización nombrada, se omite la 
     descripción detallada de los entrevistados y las citas directas para proteger 
     a los participantes.
 
-## Antipatterns
+## Antipatrones
 
 -   Realizar la recopilación y el análisis de datos de forma secuencial; aplicando 
     solo técnicas de análisis de TF.
@@ -102,7 +102,7 @@ no se aplican.
 -   Centrarse solo en entrevistas sin corroborar declaraciones con otras pruebas 
     (por ejemplo, documentos, observación).
 
-## Invalid Criticisms
+## Críticas Inválidas
 
 -   Falta de datos cuantitativos; análisis causal; objetividad, validez interna,
     confiabilidad o generalización.
@@ -113,7 +113,7 @@ no se aplican.
 -   Los hallazgos deberían haberse presentado como un conjunto diferente de 
     relaciones, hipótesis o una teoría diferente.
 
-## Suggested Readings 
+## Lecturas Sugeridas 
 
 Steve Adolph, Wendy Hall, and Philippe Kruchten. 2011. Using grounded
 theory to study the experience of software development. *Empirical
@@ -138,7 +138,7 @@ Engineering (ICSE '16)*. Association for Computing Machinery, New York,
 NY, USA, 120–131. DOI: 10.1145/2884781.2884833
 
 
-## Exemplars
+## Ejemplares
 
 Barthélémy Dagenais and Martin P. Robillard. 2010. Creating and evolving
 developer documentation: understanding the decisions of open source

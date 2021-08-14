@@ -1,8 +1,8 @@
-# Systematic Reviews 
+# Revisiones Sistemáticas
 <standard name="Systematic Reviews">
 <em>Estudio que evalúa, analiza y sintetiza literatura primaria o secundaria para proporcionar un resumen completo y exhaustivo de la evidencia actual con respecto a uno o más temas específicos o preguntas de investigación.</em>
 
-## Application 
+## Aplicación
 
 -   Aplica a estudios que encuentran y analizan sistemáticamente la literatura existente
     sobre un tema específico.
@@ -10,9 +10,9 @@
 -   No aplica a revisiones de literatura ad-hoc, estudios de casos
     o métodos avanzados de síntesis cualitativa (por ejemplo, meta-etnografía)
 
-## Specific Attributes 
+## Atributos Específicos
 
-### Essential Attributes 
+### Atributos Esenciales 
 <checklist name="Essential">
 
 <intro>
@@ -39,7 +39,7 @@
 
 </checklist>
 
-### Desirable Attributes 
+### Atributos Deseables
 <checklist name="Desirable">
 
 - [ ]	proporciona un paquete de replicación que incluye protocolo, términos de la búsqueda, resultados de la búsqueda, resultados del proceso de selección; conjunto de datos completo, scripts de análisis; ejemplos de codificación, reglas de decisión o casos extremos
@@ -65,14 +65,14 @@
 - [ ]	distingue claramente los resultados basados en evidencia de las interpretaciones y especulaciones<sup>[5](#myfootnote5)</sup>
 </checklist>
      
-### Extraordinary Attributes
+### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
 - [ ]	dos o más investigadores realizan de forma independiente el proceso de búsqueda preliminar antes de finalizar el alcance y las palabras clave de la búsqueda
 - [ ]	contacto con los autores principales del estudio para asegurarse de que las interpretaciones sean correctas y obtener detalles adicionales que no se encuentran en los artículos, como el acceso a datos sin procesar
 </checklist>
 
-## Examples of Acceptable Deviations 
+## Ejemplos de Desviaciones Aceptables
 
 -   Ningún intento de mitigar el sesgo de publicación en un estudio que examina explícitamente
     la cobertura de un lugar de publicación específico (por ejemplo, CACM o ICSE) de un tema
@@ -82,7 +82,7 @@
 -   Sin recomendaciones para los profesionales en un estudio sobre una cuestión metodológica
     (por ejemplo, muestreo representativo).
 
-## Antipatterns 
+## Antipatrones
 
 -   Una descripción detallada de los estudios (A encontró X, B encontró Y, ...),
     en lugar de una síntesis de los hallazgos.
@@ -92,7 +92,7 @@
 -   Revisar un área en la que hay muy pocos estudios primarios de alta calidad
     para sacar conclusiones confiables.
 
-## Suggested Readings 
+## Lecturas Sugeridas
 
 Moher D, Liberati A, Tetzlaff J, Altman DG, The PRISMA Group (2009).
 *P*referred *R*eporting *I*tems for *S*ystematic Reviews and

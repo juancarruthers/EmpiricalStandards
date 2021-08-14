@@ -1,11 +1,11 @@
-﻿# Case Study and Ethnography 
+﻿# Caso de Estudio y Etnografía
 <standard name="Case Study and Ethnography">
 
 *"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso")
  en profundidad y dentro de su contexto del mundo real, especialmente cuando los 
  límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017)*
 
-## Application 
+## Aplicación
 
 Este estándar se aplica a la investigación empírica que cumple las siguientes 
 condiciones.
@@ -31,9 +31,8 @@ de acción o interviene en el contexto, considere el **Estándar de Investigaci�
 Acción.** Si el estudio captura un gran conjunto de datos cuantitativos 
 con un contexto limitado, considere el **Estándar de Ciencia de Datos Exploratoria**.
 
-## Specific Attributes 
-
-### Essential Attributes
+## Atributos Específicos
+### Atributos Esenciales
 <checklist name="Essential">
 
 <intro>
@@ -58,7 +57,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 
 </checklist>
     
-### Desirable Attributes
+### Atributos Deseables
 <checklist name="Desirable">
 
 - [ ]   Proporciona materiales complementarios como guías para entrevistas, esquemas de codificación, ejemplos de codificación, reglas de decisión o tablas de cadena de evidencia extendida
@@ -73,7 +72,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 - [ ]   researchers reflect on their own possible biases
 </checklist>
 
-### Extraordinary Attributes
+### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
 - [ ]   Casos múltiples, profundos y completamente desarrollados con triangulación entre casos
@@ -81,7 +80,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 - [ ]   Publicó un protocolo de estudio de caso de antemano y lo hizo accesible al público (consulte el [Suplemento de Reportes Registrados](https://github.com/juancarruthers/EmpiricalStandards/tree/master/Supplements)) 
 </checklist>
 
-## General Quality Criteria 
+## Criterios de Calidad Generales
 
 Los estudios de caso deben evaluarse utilizando criterios de validez cualitativa 
 como credibilidad, multivocalidad, reflexividad, rigor
@@ -89,7 +88,7 @@ y transferibilidad  (ver **Glosario**). Los criterios de calidad cuantitativos c
 la replicabilidad, la generalización y la objetividad no suelen 
 aplicarse.
 
-## Types of Case Studies 
+## Tipos de Estudios de Caso
 
 No existe una forma estándar de realizar un estudio de caso. La investigación
 de estudios de caso puede adoptar diferentes filosofías, en particular el 
@@ -112,14 +111,14 @@ y sirven para diferentes propósitos, que incluyen:
 -   Un **estudio de caso revelador** examina un desconocido o 
     fenómeno inexplorado
 
-## Antipatterns
+## Antipatrones
 
 -   Confiar en un enfoque único para la recopilación de datos (por ejemplo, entrevistas)
     sin corroboración ni triangulación
 -   Simplificar y racionalizar en exceso fenómenos complejos; presentar cosas 
     complicadas y desordenadas como simples y limpias.
 
-## Invalid Criticisms 
+## Críticas No Válidas
 
 -   No presenta datos cuantitativos; solo recopila un único tipo de
     datos.
@@ -135,7 +134,7 @@ y sirven para diferentes propósitos, que incluyen:
     lo que importa es que haya suficientes datos para que los hallazgos sean 
     creíbles y la descripción sea profunda y rica.
 
-## Suggested Readings 
+## Lecturas Sugeridas
 
 Line Dube and Guy Pare. Rigor in information systems positivist case
 re-search: current practices, trends, and recommendations. 2003. *MIS
@@ -184,7 +183,7 @@ and method. *European Journal of information systems.* 4,2, 74–81.
 Robert K. Yin. 2017. *Case study research and applications: Design and
 methods*. Sage publications.
 
-## Exemplars 
+## Ejemplares
 
 Adam Alami, and Andrzej Wąsowski. 2019. Affiliated participation in open
 source communities. In *2019 ACM/IEEE International Symposium on

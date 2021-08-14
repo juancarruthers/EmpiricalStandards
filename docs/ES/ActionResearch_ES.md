@@ -1,10 +1,10 @@
-﻿# Action Research 
+﻿# Investigación Acción
 <standard name="Action Research">
 
 *Investigación empírica que estudia cómo una intervención, como la 
 introducción de un método o herramienta, afecta un contexto de la vida real.*
 
-## Application 
+## Aplicación
 
 Este estándar se aplica a la investigación empírica que cumple las 
 siguientes condiciones.
@@ -25,8 +25,8 @@ Si la investigación implica la creación de una tecnología y una intervención
 organizacional con una dimensión social, considere ambos
 estándares.
 
-## Specific Attributes
-### Essential Attributes
+## Atributos Específicos
+### Atributos Esenciales
 <checklist name="Essential">
     
 <intro>
@@ -58,7 +58,7 @@ estándares.
 
 </checklist>
     
-### Desirable Attributes
+### Atributos Deseables
 <checklist name="Desirable">
     
 - [ ]   Proporciona materiales complementarios como guías para entrevistas, esquemas de codificación, ejemplos de codificación, reglas de decisión o tablas de cadena de evidencia extendida
@@ -68,20 +68,20 @@ estándares.
 - [ ]   Triangulación entre datos cuantitativos y cualitativos
 </checklist>
     
-### Extraordinary Attributes
+### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
 - [ ]   Equipo de investigación con triangulación entre investigadores (para mitigar el sesgo de los investigadores)
 </checklist>
      
-## General Quality Criteria 
+## Criterios de Calidad Generales
 
 Los criterios de ejemplo incluyen reflexividad, credibilidad, resonancia, utilidad 
 y transferibilidad (ver **Glosario**). Los criterios de calidad positivistas como 
 la validez interna, la validez de constructo, la generalización y 
 la fiabilidad no suelen aplicarse.
 
-## Examples of Acceptable Deviations 
+## Ejemplos de Desviaciones Aceptables
 
 -   En un estudio sobre desviaciones de los estándares organizacionales, se omiten 
     descripciones detalladas de las circunstancias y las citas directas para 
@@ -89,7 +89,7 @@ la fiabilidad no suelen aplicarse.
 -   El artículo informa un resultado negativo de una intervención y, 
     por ejemplo, investiga por qué un determinado método no era aplicable.
 
-## Antipatterns 
+## Antipatrones
 
 -   Forzar intervenciones que no sean aceptables para los participantes o la
     organización de acogida.
@@ -100,7 +100,7 @@ la fiabilidad no suelen aplicarse.
 -   Evitar la evaluación sistemática; restar importancia a los problemas; reportar
     simplemente las opiniones de los participantes sobre la intervención.
 
-## Invalid Criticisms 
+## Críticas No Válidas
 
 -   Los hallazgos y los conocimientos no son válidos porque la investigación
     intervino en el contexto. Aunque la reflexividad es crucial,
@@ -118,7 +118,7 @@ la fiabilidad no suelen aplicarse.
 -   Falta de grupos de control o protocolos experimentales. Un estudio de investigación-acción
     no es un experimento.
 
-## Suggested Readings
+## Lecturas Sugeridas
 
 Richard Baskerville and A. Trevor Wood-Harper. 1996. A critical
 perspective on action research as a method for information systems
@@ -156,7 +156,7 @@ Maung K. Sein, Ola Henfridsson, Sandeep Purao, Matti Rossi and Rikard
 Lindgren. 2011. Action design research. *MIS quarterly*. (2011), 37-56.
 DOI: 10.2307/23043488
 
-## Exemplars
+## Ejemplares
 
 Yvonne Dittrich, Kari Rönkkö, Jeanette Eriksson, Christina Hansson and
 Olle Lindeberg. 2008. Cooperative method development. *Empirical

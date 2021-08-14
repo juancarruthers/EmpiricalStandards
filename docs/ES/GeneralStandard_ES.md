@@ -1,14 +1,14 @@
-# The General Standard 
+# El Estándar General
 
 <standard name="General Standard">
 
-## Application 
+## Aplicación
 
 Este estándar general aplica a todos los estudios de Ingeniería del Software
 que recolectan y analizan datos. Debe ser complementado con guías específicas
 cuando sea posible.
 
-## Initial Checks (Editor) 
+## Comprobaciones Iniciales (Editor) 
 
 Reviewers should only be invited for papers with the following
 attributes. By assigning reviewers, the editor/chair/administrator is
@@ -24,7 +24,7 @@ confirming that the manuscript meets these criteria:
 -   No incluye texto literal publicado y no atribuido a la fuente
     (como plagio)
 
-### Initial Checks (Reviewer)
+### Comprobaciones Iniciales (Revisor)
 
 Los trabajos deberían ser revisados por pares evaluadores siempre que tengan los
 siguientes criterios:
@@ -34,9 +34,9 @@ siguientes criterios:
     or editor and clarify what you can(not) evaluate
 -   El trabajo es claro tanto en lenguaje como en su formato de presentación.
 
-## Specific Attributes 
+## Atributos Específicos
 
-### Essential Attributes 
+### Atributos Esenciales
 
 <checklist name="Essential"> 
 
@@ -75,7 +75,7 @@ siguientes criterios:
 
 </checklist>
      
-### Desirable Attributes
+### Atributos Deseables
 
 <checklist name="Desirable">
 
@@ -90,12 +90,12 @@ siguientes criterios:
 - [ ]	Las visualizaciones (por ejemplo, gráficos, diagramas, tablas) promueve los argumentos o la contribución del artículo.
 - [ ]	Aclara los roles y responsabilidades de los investigadores (es decir, quién hizo qué?)
 - [ ]	Proporciona una autorreflexión o evaluación del propio trabajo de los autores (por ejemplo, lecciones aprendidas)
-- [ ]	Publica el estudio en dos fases: un plan y los resultados de la ejecución del plan (consultar el [Suplemento de Registro de Informes](https://github.com/juancarruthers/EmpiricalStandards/tree/master/Supplements))
+- [ ]	Publica el estudio en dos fases: un plan y los resultados de la ejecución del plan (consultar el [Suplemento de Registro de Informes](https://github.com/juancarruthers/EmpiricalStandards/tree/master/Supplements.md))
 - [ ]	Utiliza varios evaluadores, cuando sea filosóficamente apropiado, para realizar juicios subjetivos (consultar el [Suplemento de IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
 
 </checklist>
      
-### Extraordinary Attributes 	
+### Atributos Extraordinarios	
 <checklist name="Extraordinary">
 
 - [ ]	Aplica dos o más estrategias de recopilación o análisis de datos a la misma pregunta de investigación (consultar la entrada de [Estándar Multimetodológico](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/MixedMethods.md))
@@ -104,7 +104,7 @@ siguientes criterios:
 
 </checklist>
 
-## General Quality Criteria 
+## Criterios Generales de Calidad
 
 No existen criterios de calidad universales. Cada estudio debe evaluarse
 en función de los criterios de calidad adecuados para su metodología, tal como se establece
@@ -112,7 +112,7 @@ en los estándares **empíricos específicos**. Evite aplicar criterios de calid
 (por ejemplo, validez de constructo a un estudio sin constructos;
 validez interna a un estudio sin relaciones causales).
 
-### Examples of Acceptable Deviations 
+### Ejemplos de Desviaciones Aceptables
 
 Un estudio solo puede aplicar un **estándar empírico** si existe un estándar
 apropiado. Si no existen estándares relacionados, los estudios deben aplicar
@@ -120,7 +120,7 @@ las guías publicadas. Si no existe una guía adecuada, los revisores deben
 aplicar el estándar general y construir un esquema de evaluación ad hoc
 para el nuevo método.
 
-## Good Review Practices 
+## Prácticas de Buenas Revisiones
 
 Los revisores evalúan la confiabilidad, la importancia y la claridad de un
 manuscrito. Los resultados deben ser, principalmente, verdaderos (confiables)
@@ -135,7 +135,7 @@ juzgar su confiabilidad e importancia. Los revisores deben esforzarse por:
 -   Identificar las partes del documento que no pueda juzgar de manera efectiva o que
     no revisó.
 
-## Reviewing Antipatterns
+## Revisando Antipatrones
 -   Aplicar estándares empíricos de manera mecánica, inflexible, marcando casillas o siguiendo una receta.
 -   Rechazar un estudio porque utiliza una metodología para la que no se dispone de un estándar específico.
 -   Hojear un manuscrito en lugar de leer cuidadosamente cada palabra e inspeccionar cada figura y tabla.
@@ -147,7 +147,7 @@ juzgar su confiabilidad e importancia. Los revisores deben esforzarse por:
 -   Tercializar la revisión con otras personas cuando el lugar no lo permita explícitamente.
 -   Usar la revisión para promover las propias opiniones, teorías, métodos o publicaciones del revisor.
 
-## Invalid Criticisms
+## Críticas Inválidas
 -   Establecer tamaños de muestra mínimos arbitrarios u otros requisitos de datos, sin basarse ni en el análisis de potencia estadística ni en la saturación teórica.
 -   Declarar que un estudio:
     - Carece de detalles sin enumerar los detalles que faltan; o
@@ -159,7 +159,7 @@ juzgar su confiabilidad e importancia. Los revisores deben esforzarse por:
 -   Rechazar un estudio porque el revisor habría utilizado una metodología o diseño diferente
 -   Rechazar un estudio porque reporta resultados negativos
     
-## Research and Reporting Antipatterns
+## Antipatrones Investigados e Informados 
 -   Intentar un estudio sin leer, comprender y aplicar las pautas publicadas para ese tipo de estudio.
 -   Estudios irracionalmente pequeños, con poca potencia estadística o limitados.
 -   Hipotetizar después de que se conozcan los resultados (del inglés "Hypothesizing After Results are Known" o HARKing) en una investigación (pos) positivista, aparentemente confirmatoria.
