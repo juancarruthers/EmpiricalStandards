@@ -64,7 +64,7 @@ Se aplica a estudios que analizan principalmente los fenómenos de software exis
 ### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
-- [ ] Aprovecha los datos temporales a través de análisis longitudinales (consulte el [Estándar de Estudios Longitudinales](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/Longitudinal.md))
+- [ ] Aprovecha los datos temporales a través de análisis longitudinales (consulte el [Estándar de Estudios Longitudinales](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/Longitudinal.md))
 - [ ] Triangula con análisis de datos cualitativos de muestras seleccionadas de los datos.
 - [ ] Triangula con otras fuentes de datos, como encuestas o entrevistas.
 - [ ] Comparte hallazgos y solicita comentarios de los creadores de los artefactos (de software) que se están estudiando.
@@ -84,7 +84,7 @@ Se aplica a estudios que analizan principalmente los fenómenos de software exis
 - Usar estadísticas bayesianas sin motivar a priori.
 - Afirmar causalidad no solo sin establecer la covariación y la precedencia, sino también eliminar las explicaciones de la tercera variable y al menos plantear la hipótesis de un mecanismo generativo.
 - El procesamiento previo modifica datos de entrenamiento y datos de prueba; p.ej. Si bien puede ser útil ajustar las distribuciones de clases de datos de entrenamiento a través de (por ejemplo) submuestreo de clases mayoritarias, ese ajuste no debe aplicarse a los datos de prueba (ya que es importante evaluar al aprendiz sobre los tipos de datos que pueden encontrarse "en la naturaleza").
-- Recopilación o análisis poco éticos de datos (consulte el [Suplemento de Ética (Datos Secundarios)](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/EthicsSecondaryData.md)
+- Recopilación o análisis poco éticos de datos (consulte el [Suplemento de Ética (Datos Secundarios)](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/EthicsSecondaryData.md)
 - Pruebas de significación sin pruebas de tamaño del efecto; tamaños del efecto sin intervalos de confianza.
 - Informar una mediana, sin ninguna indicación de varianza (por ejemplo, un diagrama de caja).
 - Realización de múltiples ensayos sin informar variaciones entre ensayos.

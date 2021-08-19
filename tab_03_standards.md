@@ -157,7 +157,7 @@ function openStandardFromURL(evt) {
 </div>
 <div id="MixedMethods" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/ES/MixedMethods_ES.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/MixedMethod_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Mixed Methods">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>

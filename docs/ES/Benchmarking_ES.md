@@ -84,10 +84,6 @@ Equidad de las mediciones, reproducibilidad de los resultados a través de las r
 
 ## Criticas Inválidas
 
--   The benchmark is not widely used. It is sufficient to start developing a new benchmark with a small group of researchers as an offer to a larger scientific community. Such a proto-benchmark (Sim et al. 2003) can act as a template to further the discussion of the topic and to initialize the consensus process.
--   No independent replication of the benchmark results is reported.
--   There is no independent organization that maintains the benchmark.
-
 -   El benchmark no se utiliza mucho. Basta con empezar a desarrollar un nuevo benchmark con un pequeño grupo de investigadores como oferta a una comunidad científica más amplia. Dicho prototipo de benchmark (Sim et al. 2003) puede actuar como una plantilla para promover la discusión del tema e iniciar el proceso de consenso.
 -   No se informa una replicación independiente de los resultados del benchmark.
 -   No existe una organización independiente que mantenga el benchmark.
@@ -105,6 +101,8 @@ Wilhelm Hasselbring. 2021. Benchmarking as Empirical Standard in Software Engine
 Jóakim v. Kistowski, Jeremy A. Arnold, Karl Huppler, Klaus-Dieter Lange, John L. Henning, and Paul Cao. 2015. How to Build a Benchmark. In Proceedings of the 6th ACM/SPEC International Conference on Performance Engineering. DOI: [10.1145/2668930.2688819](https://doi.org/10.1145/2668930.2688819)
 
 Samuel Kounev, Klaus-Dieter Lange, and Jóakim von Kistowski. 2020. Systems Benchmarking for Scientists and Engineers. Springer. DOI: [10.1007/978-3-030-41705-5](https://doi.org/10.1007/978-3-030-41705-5)
+
+Alessandro Vittorio Papadopoulos,  Laurens Versluis, André Bauer, Nikolas Herbst,  Jóakim von Kistowski, Ahmed Ali-Eldin, Cristina L. Abad,  José Nelson Amaral, Petr Tůma, Alexandru Iosup. 2021. Methodological Principles for Reproducible Performance Evaluation in Cloud Computing. In IEEE Transactions on Software Engineering, vol. 47, no. 8, pp. 1528-1543. DOI: [10.1109/TSE.2019.2927908](https://doi.org/10.1109/TSE.2019.2927908)
 
 Walter F. Tichy. 1998. Should computer scientists experiment more? Computer 31, 5 (May 1998), 32–40. DOI: [10.1109/2.675631](https://doi.org/10.1109/2.675631)
 
