@@ -76,7 +76,7 @@ Un estudio de entrevista debe abordar criterios de calidad cualitativos apropiad
 -   Entrevistar a un pequeño número de personas similares, creando la ilusión de convergencia y saturación.
 -   Presentar erróneamente una encuesta cualitativa como teoría fundamentada o estudio de caso.
 
-## Críticas No Válidas
+## Críticas Inválidas
 
 -   Falta de datos cuantitativos; análisis causal; objetividad, validez interna, confiabilidad o generalización.
 -   Falta de replicabilidad o reproducibilidad; no publicar transcripciones.

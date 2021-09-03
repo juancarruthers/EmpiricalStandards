@@ -1,4 +1,4 @@
-﻿# Caso de Estudio y Etnografía
+﻿# Estudio de caso y Etnografía
 <standard name="Case Study and Ethnography">
 
 *"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso")
@@ -118,7 +118,7 @@ y sirven para diferentes propósitos, que incluyen:
 -   Simplificar y racionalizar en exceso fenómenos complejos; presentar cosas 
     complicadas y desordenadas como simples y limpias.
 
-## Críticas No Válidas
+## Críticas Inválidas
 
 -   No presenta datos cuantitativos; solo recopila un único tipo de
     datos.

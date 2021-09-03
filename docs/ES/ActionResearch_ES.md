@@ -100,7 +100,7 @@ la fiabilidad no suelen aplicarse.
 -   Evitar la evaluación sistemática; restar importancia a los problemas; reportar
     simplemente las opiniones de los participantes sobre la intervención.
 
-## Críticas No Válidas
+## Críticas Inválidas
 
 -   Los hallazgos y los conocimientos no son válidos porque la investigación
     intervino en el contexto. Aunque la reflexividad es crucial,
