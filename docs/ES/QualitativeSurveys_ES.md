@@ -21,7 +21,7 @@ Si los investigadores iteraron entre la recopilación y el análisis de datos, c
 
 <method>    
     
-- [ ]	Explica cómo se seleccionaron los entrevistados (consulte el [Suplemento de Muestreo](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/Sampling.md))
+- [ ]	Explica cómo se seleccionaron los entrevistados (consulte el [Suplemento de Muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]	Describe a los entrevistados (p. ej., datos demográficos, roles laborales)
 - [ ]   Describe al/a los entrevistador(es) (p. ej., experiencia, perspectiva) 
     
@@ -58,7 +58,7 @@ Si los investigadores iteraron entre la recopilación y el análisis de datos, c
 - [ ]	Emplea múltiples métodos de análisis de datos (por ejemplo, codificación abierta frente a codificación de proceso; codificación manual frente a análisis automatizado de sentimientos) con triangulación de métodos
 - [ ]	Emplea un diseño y análisis longitudinal (es decir, cada entrevistado participa varias veces)
 - [ ]	Emplea una estrategia de muestreo probabilístico; análisis estadístico del sesgo de respuesta
-- [ ]	Utiliza varios codificadores y analiza la fiabilidad entre codificadores (consulte el [Suplemento IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
+- [ ]	Utiliza varios codificadores y analiza la fiabilidad entre codificadores (consulte el [Suplemento IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
 </checklist>
 
 ## Criterios de Calidad Generales

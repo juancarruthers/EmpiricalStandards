@@ -23,7 +23,7 @@ Este estándar no se aplica a los cuestionarios que comprenden predominantemente
 
 <method>
 
-- [ ]   Identifica la población objetivo y define la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/Sampling.md))
+- [ ]   Identifica la población objetivo y define la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]  Describe cómo se creó el instrumento de cuestionario
 - [ ]  Describe cómo se seleccionaron o reclutaron los participantes (por ejemplo, marco de muestreo, publicidad, invitaciones, incentivos)
 - [ ]  Descripción paso a paso, sistemática y reproducible de la recopilación y el análisis de datos

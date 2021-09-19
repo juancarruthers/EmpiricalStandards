@@ -76,8 +76,8 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 <checklist name="Extraordinary">
 
 - [ ]   Casos múltiples, profundos y completamente desarrollados con triangulación entre casos
-- [ ]   Utiliza varios jueces y analiza la confiabilidad entre evaluadores (consulte el [Suplemento de IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
-- [ ]   Publicó un protocolo de estudio de caso de antemano y lo hizo accesible al público (consulte el [Suplemento de Reportes Registrados](https://github.com/juancarruthers/EmpiricalStandards/tree/master/Supplements)) 
+- [ ]   Utiliza varios jueces y analiza la confiabilidad entre evaluadores (consulte el [Suplemento de IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
+- [ ]   Publicó un protocolo de estudio de caso de antemano y lo hizo accesible al público (consulte el [Suplemento de Reportes Registrados](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/RegisteredReports.md)) 
 </checklist>
 
 ## Criterios de Calidad Generales

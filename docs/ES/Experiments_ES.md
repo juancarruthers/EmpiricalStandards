@@ -80,7 +80,7 @@ Exploratorios** o el **Estándar de Investigación de Ingeniería**.
 
 - [ ]	Reporta múltiples experimentos o réplicas en diferentes culturas o regiones
 - [ ]	Utiliza múltiples métodos de recopilación de datos; triangulación de datos
-- [ ]	Recopilación de datos longitudinales con análisis de series de tiempo adecuados (consulte el [Estándar de estudios Longitudinales](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/Longitudinal.md))
+- [ ]	Recopilación de datos longitudinales con análisis de series de tiempo adecuados (consulte el [Estándar de estudios Longitudinales](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/Longitudinal.md))
 </checklist>
 
 ## Criterios Generales de Calidad

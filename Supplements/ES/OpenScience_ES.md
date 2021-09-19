@@ -48,7 +48,7 @@ Los investigadores no deben quejarse de que un estudio involucre artefactos que,
 
 Daniel Graziotin. 2020. Open science policies. Retrieved July 12, 2020 from [https://ineed.coffee/open-science-policies/](https://ineed.coffee/open-science-policies/)
 
-Daniel Graziotin. 2020. SIGSOFT open science policies. Retrieved July 12, 2020 from [https://github.com/juancarruthers/open-science-policies/](https://github.com/juancarruthers/open-science-policies/)
+Daniel Graziotin. 2020. SIGSOFT open science policies. Retrieved July 12, 2020 from [https://github.com/acmsigsoft/open-science-policies/](https://github.com/acmsigsoft/open-science-policies/)
 
 Daniel Graziotin. 2018. How to disclose data for double-blind review and make it archived open data upon acceptance
 Retrieved July 12, 2020 from [https://ineed.coffee/5205/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance/](https://ineed.coffee/5205/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance/).

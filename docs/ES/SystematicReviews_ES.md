@@ -55,7 +55,7 @@
 - [ ]	demuestra que el proceso de búsqueda es lo suficientemente riguroso para los objetivos de la revisión sistemática<sup>[3](#myfootnote3)</sup>  
 - [ ]	evalúa la calidad de los estudios primarios; explica cómo se evaluó la calidad
 - [ ]	evalúa la cobertura utilizando gráficos de embudo (funnel plots) o porcentaje de artículos conocidos encontrados
-- [ ]	(revisiones positivistas), utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consultar el [Suplemento IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica como se resolvieron las discrepancias entre los autores<sup>[4](#myfootnote4)</sup>
+- [ ]	(revisiones positivistas), utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consultar el [Suplemento IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica como se resolvieron las discrepancias entre los autores<sup>[4](#myfootnote4)</sup>
 - [ ]	(revisiones interpretativas) reflexiona sobre cómo los sesgos del investigador pueden haber afectado su análisis
 - [ ]	consolida los resultados mediante tablas, diagramas o gráficos; Diagrama de flujo PRISMA (cf. Moher et al. 2009)
 - [ ]	realiza análisis a través de un marco conceptual nuevo o existente (síntesis cualitativa)

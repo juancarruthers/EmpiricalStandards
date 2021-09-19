@@ -49,7 +49,7 @@ siguientes criterios:
 <method>
     
 - [ ]	La metodología es apropiada (no necesariamente óptima) para el propósito, problema, etc.
-- [ ]	Describe en detalle qué, dónde, cuándo y cómo se recopilaron los datos (consultar el [Suplemento de Muestreo](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/Sampling.md))
+- [ ]	Describe en detalle qué, dónde, cuándo y cómo se recopilaron los datos (consultar el [Suplemento de Muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]	Describe en detalle cómo se analizaron los datos
 
 
@@ -69,8 +69,8 @@ siguientes criterios:
   
 - [ ]	Contribuye de alguna manera al cuerpo de conocimientos
 - [ ]	El lenguaje no es engañoso; cualquier problema gramatical no obstaculiza sustancialmente la comprensión
-- [ ]	Reconoce y mitiga los posibles riesgos, daños o consecuencias no deseadas de la investigación (consultar la entrada suplementaria de Ética para [Investigación de Ingeniería](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/EthicsEngineering.md), [Participantes Humanos](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/EthicsHumanParticipants.md), o [Datos Secundarios](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/EthicsSecondaryData.md))
-- [ ]	Las visualizaciones / los gráficos no son engañosos (consultar el [Suplemento de Visualización de Información](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InformationVisualization.md))
+- [ ]	Reconoce y mitiga los posibles riesgos, daños o consecuencias no deseadas de la investigación (consultar la entrada suplementaria de Ética para [Investigación de Ingeniería](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/EthicsEngineering.md), [Participantes Humanos](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/EthicsHumanParticipants.md), o [Datos Secundarios](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/EthicsSecondaryData.md))
+- [ ]	Las visualizaciones / los gráficos no son engañosos (consultar el [Suplemento de Visualización de Información](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InformationVisualization.md))
 - [ ]	Cumple con todos los estándares empíricos aplicables
 
 </checklist>
@@ -90,15 +90,15 @@ siguientes criterios:
 - [ ]	Las visualizaciones (por ejemplo, gráficos, diagramas, tablas) promueve los argumentos o la contribución del artículo.
 - [ ]	Aclara los roles y responsabilidades de los investigadores (es decir, quién hizo qué?)
 - [ ]	Proporciona una autorreflexión o evaluación del propio trabajo de los autores (por ejemplo, lecciones aprendidas)
-- [ ]	Publica el estudio en dos fases: un plan y los resultados de la ejecución del plan (consultar el [Suplemento de Registro de Informes](https://github.com/juancarruthers/EmpiricalStandards/tree/master/Supplements.md))
-- [ ]	Utiliza varios evaluadores, cuando sea filosóficamente apropiado, para realizar juicios subjetivos (consultar el [Suplemento de IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
+- [ ]	Publica el estudio en dos fases: un plan y los resultados de la ejecución del plan (consultar el [Suplemento de Registro de Informes](https://github.com/acmsigsoft/EmpiricalStandards/tree/master/Supplements.md))
+- [ ]	Utiliza varios evaluadores, cuando sea filosóficamente apropiado, para realizar juicios subjetivos (consultar el [Suplemento de IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md))
 
 </checklist>
      
 ### Atributos Extraordinarios	
 <checklist name="Extraordinary">
 
-- [ ]	Aplica dos o más estrategias de recopilación o análisis de datos a la misma pregunta de investigación (consultar la entrada de [Estándar Multimetodológico](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/MixedMethods.md))
+- [ ]	Aplica dos o más estrategias de recopilación o análisis de datos a la misma pregunta de investigación (consultar la entrada de [Estándar Multimetodológico](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/MixedMethods.md))
 - [ ]	Aborda la (s) misma (s) pregunta (s) de investigación desde múltiples perspectivas epistemológicas
 - [ ]	Innova en la metodología de investigación mientras completa un estudio empírico
 

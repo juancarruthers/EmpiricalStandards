@@ -24,7 +24,7 @@ Esta norma no se aplica a los estudios que recopilan datos primarios de una gran
 
 - [ ]   Presenta una descripción paso a paso, sistemática y replicable del proceso de búsqueda de estudios de casos publicados (no necesariamente en lugares de publicación revisados por pares)
 - [ ]   Define criterios claros de inclusión y exclusión para los casos<sup>[1](#myfootnote1)</sup>
-- [ ]   Describe la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/Sampling.md))
+- [ ]   Describe la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]   Mitiga el sesgo de muestreo y el sesgo de publicación, utilizando algunas (no todas):
 (i) Búsquedas manuales y búsquedas automáticas por palabras clave;
 (ii) Búsquedas con bola de nieve hacia atrás y hacia adelante;
@@ -56,7 +56,7 @@ O: proporciona el esquema de codificación en materiales complementarios
 
 - [ ]   Proporciona materiales complementarios como protocolos, términos de búsqueda, resultados de búsqueda, resultados del proceso de selección, esquemas de codificación, ejemplos de codificación, reglas de decisión, conjuntos de datos completos, scripts de análisis, descripciones de casos extremos<sup>[3](#myfootnote3)</sup>
 - [ ]   Explica y justifica el diseño del esquema de codificación
-- [ ]   Utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consulte el [Suplemento de IRR/IRA](https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica cómo se resolvieron las discrepancias entre los codificadores<sup>[4](#myfootnote4)</sup>
+- [ ]   Utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consulte el [Suplemento de IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica cómo se resolvieron las discrepancias entre los codificadores<sup>[4](#myfootnote4)</sup>
 - [ ]   Describe cómo ponerse en contacto con los autores de los estudios primarios para obtener más información, verificar la precisión de la codificación o resolver desacuerdos de codificación
 - [ ]   Evalúa la calidad de los estudios primarios utilizando un esquema a priori (por ejemplo, el **Estándar de Encuestas de Casos**); explica cómo se evaluó la calidad; los modelos estudian la calidad como variable moderadora
 - [ ]   Consolida los resultados mediante tablas, diagramas o gráficos; incluye el diagrama de flujo PRISMA (cf. Moher et al. 2009)

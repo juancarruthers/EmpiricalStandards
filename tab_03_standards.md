@@ -84,116 +84,116 @@ function openStandardFromURL(evt) {
 <div id="GeneralStandard" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/GeneralStandard_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="General Standard">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="General Standard">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="ActionResearch" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/ActionResearch_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Action Research">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Action Research">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
     <div id="Benchmarking" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/Benchmarking_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Benchmarking (of Software Systems)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Benchmarking (of Software Systems)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="CaseStudy" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/CaseStudy_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Case Study and Ethnography">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Case Study and Ethnography">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="CaseSurvey" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/CaseSurvey_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Case Survey">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Case Survey">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="DataScience" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/DataScience_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Data Science">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Data Science">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="EngineeringResearch" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/EngineeringResearch_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Engineering Methods">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Engineering Methods">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="Experiments" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/Experiments_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Experiments (with Human Participants)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Experiments (with Human Participants)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="GroundedTheory" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/GroundedTheory_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Grounded Theory">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Grounded Theory">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="Longitudinal" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/Longitudinal_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Longitudinal">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Longitudinal">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 <div id="MetaScience" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/MetaScience_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Meta Science">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Meta Science">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 <div id="MixedMethods" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/MixedMethod_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Mixed Methods">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Mixed Methods">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="OptimizationStudies" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/OptimizationStudies_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Optimization Studies">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Optimization Studies">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="QualitativeSurveys" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/QualitativeSurveys_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Qualitative Surveys (Interview Studies)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Qualitative Surveys (Interview Studies)">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="QuantitativeSimulation" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/QuantitativeSimulation_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Simulation">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Simulation">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="QuestionnaireSurveys" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/QuestionnaireSurveys_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Questionnaire Surveys">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Questionnaire Surveys">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
 <div id="SystematicReviews" class="tabcontent">
   <p>
     {% capture std %}{% include_relative docs/ES/SystematicReviews_ES.md %}{% endcapture %}
-    {{ std | remove: '<standard name="Systematic Reviews">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
+    {{ std | remove: '<standard name="Systematic Reviews">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
 
