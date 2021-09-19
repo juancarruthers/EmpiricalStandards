@@ -174,7 +174,7 @@ Wiley & Sons.
 
 Sarah J. Tracy. 2010. Qualitative Quality: Eight "Big-Tent" Criteria for
 Excellent Qualitative Research. *Qualitative Inquiry*. 16, 10,
-837–851. DOI:
+837–851.DOI:
 [10.1177/1077800410383121](https://doi.org/10.1177/1077800410383121)
 
 Geoff Walsham, 1995. Interpretive case studies in IS research: nature

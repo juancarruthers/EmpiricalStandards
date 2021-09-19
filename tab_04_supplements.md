@@ -63,25 +63,25 @@ function openSupplementFromURL(evt) {
 <div class="tab">
   <button id="EthicsEngineering_b"           class="tablinks" onclick="openSupplement(event, 'EthicsEngineering')">Ethics (Engineering Research)</button>
 <div class="tab">
-  <button id="EthicsHumanParticipants_b"           class="tablinks" onclick="openSupplement(event, 'EthicsHumanParticipants')">Ethics (Human Participants)</button>
-  <button id="EthicsSecondaryData_b"               class="tablinks" onclick="openSupplement(event, 'EthicsSecondaryData')">Ethics (Secondary Data)</button>
-  <button id="InformationVisualization_b"          class="tablinks" onclick="openSupplement(event, 'InformationVisualization')">Information Visualization</button>
-  <button id="InterRaterReliabilityAndAgreement_b" class="tablinks" onclick="openSupplement(event, 'InterRaterReliabilityAndAgreement')">Inter-Rater Reliability and Agreement</button>
-  <button id="OpenScience_b"                       class="tablinks" onclick="openSupplement(event, 'OpenScience')">Open Science</button>
-  <button id="RegisteredReports_b"                 class="tablinks" onclick="openSupplement(event, 'RegisteredReports')">Registered Reports</button>
-  <button id="Sampling_b"                          class="tablinks" onclick="openSupplement(event, 'Sampling')">Sampling</button>
+  <button id="EthicsHumanParticipants_b"           class="tablinks" onclick="openSupplement(event, 'EthicsHumanParticipants')">Ética (Participantes Humanos)</button>
+  <button id="EthicsSecondaryData_b"               class="tablinks" onclick="openSupplement(event, 'EthicsSecondaryData')">Ética (Datos Secundarios)</button>
+  <button id="InformationVisualization_b"          class="tablinks" onclick="openSupplement(event, 'InformationVisualization')">Visualización de la Información</button>
+  <button id="InterRaterReliabilityAndAgreement_b" class="tablinks" onclick="openSupplement(event, 'InterRaterReliabilityAndAgreement')">IRR/IRA</button>
+  <button id="OpenScience_b"                       class="tablinks" onclick="openSupplement(event, 'OpenScience')">Ciencia Abierta</button>
+  <button id="RegisteredReports_b"                 class="tablinks" onclick="openSupplement(event, 'RegisteredReports')">Reportes Registrados</button>
+  <button id="Sampling_b"                          class="tablinks" onclick="openSupplement(event, 'Sampling')">Muestreo</button>
 </div>
 
 <div id="EthicsEngineering" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/EthicsEngineering.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/EthicsEngineering_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="EthicsHumanParticipants" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/EthicsHumanParticipants.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/EthicsHumanParticipants_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
@@ -89,42 +89,42 @@ function openSupplementFromURL(evt) {
   
 <div id="EthicsSecondaryData" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/EthicsSecondaryData.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/EthicsSecondaryData_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="InformationVisualization" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/InformationVisualization.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/InformationVisualization_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="InterRaterReliabilityAndAgreement" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/InterRaterReliabilityAndAgreement.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/InterRaterReliabilityAndAgreement_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="OpenScience" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/OpenScience.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/OpenScience_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="RegisteredReports" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/RegisteredReports.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/RegisteredReports_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
 
 <div id="Sampling" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative Supplements/Sampling.md %}{% endcapture %}
+    {% capture std %}{% include_relative Supplements/ES/Sampling_ES.md %}{% endcapture %}
     {{ std | replace: '- [ ]', '-' | markdownify }}
   </p>
 </div>
