@@ -23,11 +23,11 @@ Este estándar se aplica a estudios que proponen y evalúan artefactos tecnológ
 <method>
 
 - [ ]   Evalúa empíricamente el artefacto propuesto utilizando:
-  [Investigación-Acción](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/ES/ActionResearch_ES.md), en la que los investigadores intervienen en una organización real utilizando el artefacto,
-  Un [Estudio de Caso](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/ES/CaseStudy_ES.md) en el que los investigadores observan una organización real que utiliza el artefacto,
-  Un [Experimento Controlado](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/ES/Experiments_ES.md) en el que los participantes humanos utilizan el artefacto,
-  Una [Simulación Cuantitativa](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/ES/QuantitativeSimulation_ES.md) en la que se evalúa el artefacto (generalmente contra un artefacto competidor) en un entorno artificial,
-  Un [Benchmarking](https://github.com/juancarruthers/EmpiricalStandards/edit/master/docs/Benchmarking.md), en el que el artefacto se evalúa utilizando uno o más parámetros de referencia, u otro método para el que se proporciona una justificación clara y convincente.
+  [Investigación-Acción](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/ActionResearch.md), en la que los investigadores intervienen en una organización real utilizando el artefacto,
+  Un [Estudio de Caso](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/CaseStudy.md) en el que los investigadores observan una organización real que utiliza el artefacto,
+  Un [Experimento Controlado](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/Experiments.md) en el que los participantes humanos utilizan el artefacto,
+  Una [Simulación Cuantitativa](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/QuantitativeSimulation.md) en la que se evalúa el artefacto (generalmente contra un artefacto competidor) en un entorno artificial,
+  Un [Benchmarking](https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/Benchmarking.md), en el que el artefacto se evalúa utilizando uno o más parámetros de referencia, u otro método para el que se proporciona una justificación clara y convincente.
 - [ ]   Indica claramente cuál de las metodologías empíricas anteriores se utiliza
 - [ ]   O BIEN: Discute alternativas del estado del arte (y sus fortalezas, debilidades y limitaciones)
     O: Explica por qué no existen alternativas de estado del arte
