@@ -17,23 +17,23 @@
 
 <intro>
 
-- [ ]	identifica el tipo de revisión (por ejemplo, revisión de alcance, meta-análisis, mapeo sistemático, síntesis narrativa, estudio de casos, revisión crítica)  
+- [ ]	Identifica el tipo de revisión (por ejemplo, revisión de alcance, meta-análisis, mapeo sistemático, síntesis narrativa, estudio de casos, revisión crítica)  
 
 <method>
 
-- [ ]	presenta una descripción paso a paso, sistemática y replicable del proceso de búsqueda, incluidos los términos de la búsqueda<sup>[1](#myfootnote1)</sup>
-- [ ]	define criterios claros de inclusión y exclusión
-- [ ]	especifica los datos extraídos de cada estudio primario<sup>[2](#myfootnote2)</sup>  ; explica las relaciones con las preguntas de investigación
-- [ ]	describe en detalle cómo se extrajeron y sintetizaron los datos (puede ser cualitativo o cuantitativo)
-- [ ]	describe los esquemas de codificación y su uso
+- [ ]	Presenta una descripción paso a paso, sistemática y replicable del proceso de búsqueda, incluidos los términos de la búsqueda<sup>[1](#myfootnote1)</sup>
+- [ ]	Define criterios claros de inclusión y exclusión
+- [ ]	Especifica los datos extraídos de cada estudio primario<sup>[2](#myfootnote2)</sup>  ; explica las relaciones con las preguntas de investigación
+- [ ]	Describe en detalle cómo se extrajeron y sintetizaron los datos (puede ser cualitativo o cuantitativo)
+- [ ]	Describe los esquemas de codificación y su uso
 
 <results>
 
-- [ ]	muestra evidencias claras de los datos extraídos hasta las respuestas a las preguntas de investigación
+- [ ]	Muestra evidencias claras de los datos extraídos hasta las respuestas a las preguntas de investigación
 
 <discussion>
 
-- [ ]	presenta conclusiones o recomendaciones para profesionales/no especialistas
+- [ ]	Presenta conclusiones o recomendaciones para profesionales/no especialistas
 
 <other>		
 
@@ -42,34 +42,34 @@
 ### Atributos Deseables
 <checklist name="Desirable">
 
-- [ ]	proporciona un paquete de replicación que incluye protocolo, términos de la búsqueda, resultados de la búsqueda, resultados del proceso de selección; conjunto de datos completo, scripts de análisis; ejemplos de codificación, reglas de decisión o casos extremos
-- [ ]	mitiga el sesgo de muestreo y el sesgo de publicación, utilizando alguna combinación de:
-(i) búsquedas manuales y automáticas por palabras clave;
-(ii) búsquedas con método de bola de nieve hacia atrás y hacia adelante;
-(iii) revisión de perfiles de autores referentes en el tema;
-(iv) buscar en bases de datos científicas (por ejemplo, ACM Digital Library) y buscadores (por ejemplo, Google Scholar);
-(v) buscar disertaciones relevantes;
-(vi) buscar servidores de pre-impresión (por ejemplo, arXiv);
-(iiv) solicitar manuscritos no publicados a través de listas de correo o redes sociales apropiadas;
-(iiiv) contactar autores conocidos sobre el tema.
-- [ ]	demuestra que el proceso de búsqueda es lo suficientemente riguroso para los objetivos de la revisión sistemática<sup>[3](#myfootnote3)</sup>  
-- [ ]	evalúa la calidad de los estudios primarios; explica cómo se evaluó la calidad
-- [ ]	evalúa la cobertura utilizando gráficos de embudo (funnel plots) o porcentaje de artículos conocidos encontrados
-- [ ]	(revisiones positivistas), utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consultar el [Suplemento IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica como se resolvieron las discrepancias entre los autores<sup>[4](#myfootnote4)</sup>
-- [ ]	(revisiones interpretativas) reflexiona sobre cómo los sesgos del investigador pueden haber afectado su análisis
-- [ ]	consolida los resultados mediante tablas, diagramas o gráficos; Diagrama de flujo PRISMA (cf. Moher et al. 2009)
-- [ ]	realiza análisis a través de un marco conceptual nuevo o existente (síntesis cualitativa)
-- [ ]	utiliza métodos de meta-análisis apropiados para estudios primarios; no utiliza el recuento de votos
-- [ ]	integra resultados de teorías o investigaciones anteriores; identifica brechas, sesgos o direcciones futuras
-- [ ]	presenta los resultados como pautas prácticas basadas en evidencia para profesionales, investigadores o educadores
-- [ ]	distingue claramente los resultados basados en evidencia de las interpretaciones y especulaciones<sup>[5](#myfootnote5)</sup>
+- [ ]	Proporciona un paquete de replicación que incluye protocolo, términos de la búsqueda, resultados de la búsqueda, resultados del proceso de selección; conjunto de datos completo, scripts de análisis; ejemplos de codificación, reglas de decisión o casos extremos
+- [ ]	Mitiga el sesgo de muestreo y el sesgo de publicación, utilizando alguna combinación de:
+(i) Búsquedas manuales y automáticas por palabras clave;
+(ii) Búsquedas con método de bola de nieve hacia atrás y hacia adelante;
+(iii) Revisión de perfiles de autores referentes en el tema;
+(iv) Buscar en bases de datos científicas (por ejemplo, ACM Digital Library) y buscadores (por ejemplo, Google Scholar);
+(v) Buscar disertaciones relevantes;
+(vi) Buscar servidores de pre-impresión (por ejemplo, arXiv);
+(iiv) Solicitar manuscritos no publicados a través de listas de correo o redes sociales apropiadas;
+(iiiv) Contactar autores conocidos sobre el tema.
+- [ ]	Demuestra que el proceso de búsqueda es lo suficientemente riguroso para los objetivos de la revisión sistemática<sup>[3](#myfootnote3)</sup>  
+- [ ]	Evalúa la calidad de los estudios primarios; explica cómo se evaluó la calidad
+- [ ]	Evalúa la cobertura utilizando gráficos de embudo (funnel plots) o porcentaje de artículos conocidos encontrados
+- [ ]	(Revisiones Positivistas), utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consultar el [Suplemento IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica como se resolvieron las discrepancias entre los autores<sup>[4](#myfootnote4)</sup>
+- [ ]	(Revisiones Interpretativas) reflexiona sobre cómo los sesgos del investigador pueden haber afectado su análisis
+- [ ]	Consolida los resultados mediante tablas, diagramas o gráficos; Diagrama de flujo PRISMA (cf. Moher et al. 2009)
+- [ ]	Realiza análisis a través de un marco conceptual nuevo o existente (síntesis cualitativa)
+- [ ]	Utiliza métodos de meta-análisis apropiados para estudios primarios; no utiliza el recuento de votos
+- [ ]	Integra resultados de teorías o investigaciones anteriores; identifica brechas, sesgos o direcciones futuras
+- [ ]	Presenta los resultados como pautas prácticas basadas en evidencia para profesionales, investigadores o educadores
+- [ ]	Distingue claramente los resultados basados en evidencia de las interpretaciones y especulaciones<sup>[5](#myfootnote5)</sup>
 </checklist>
      
 ### Atributos Extraordinarios
 <checklist name="Extraordinary">
 
-- [ ]	dos o más investigadores realizan de forma independiente el proceso de búsqueda preliminar antes de finalizar el alcance y las palabras clave de la búsqueda
-- [ ]	contacto con los autores principales del estudio para asegurarse de que las interpretaciones sean correctas y obtener detalles adicionales que no se encuentran en los artículos, como el acceso a datos sin procesar
+- [ ]	Dos o más investigadores realizan de forma independiente el proceso de búsqueda preliminar antes de finalizar el alcance y las palabras clave de la búsqueda
+- [ ]	Contacto con los autores principales del estudio para asegurarse de que las interpretaciones sean correctas y obtener detalles adicionales que no se encuentran en los artículos, como el acceso a datos sin procesar
 </checklist>
 
 ## Ejemplos de Desviaciones Aceptables

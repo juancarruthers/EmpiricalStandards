@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Supplements
+title: Suplementos
 permalink: /Supplements/
 ---   
 

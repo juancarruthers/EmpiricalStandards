@@ -747,13 +747,13 @@ function generateStandardChecklist(){
 
 	var heading = document.createElement("H1");
 	if(role == "\"author\"")
-		heading.innerHTML = "Pre-Submission Checklist";
+		heading.innerHTML = "Lista de Verificación Previa al Envío";
 	// else if(role == "\"ease-reviewer\"")
 	// 	heading.innerHTML = "Reviewer Checklist";
 	else if(role == "\"one-phase-reviewer\"")
-		heading.innerHTML = "Reviewer Checklist";
+		heading.innerHTML = "Lista de Verificación para Revisión";
 	else if(role == "\"two-phase-reviewer\"")
-		heading.innerHTML = "Reviewer Checklist";
+		heading.innerHTML = "Lista de Verificación para Revisión";
 
 
 	var form = document.createElement("FORM");
@@ -765,7 +765,7 @@ function generateStandardChecklist(){
 	EssentialUL.id = "Essential";
 	EssentialUL.style = "padding: 0px;";
 	EssentialH2.style = "padding: 0px; margin: 0px; text-indent: -0.3em;";
-	EssentialH2.innerHTML = "Essential";
+	EssentialH2.innerHTML = "Esencial";
 	EssentialUL.appendChild(EssentialH2);
 
 	var DesirableUL = document.createElement("UL");
@@ -773,7 +773,7 @@ function generateStandardChecklist(){
 	DesirableUL.id = "Desirable";
 	DesirableUL.style = "padding: 0px;";
 	DesirableH2.style = "padding: 0px; margin: 0px; text-indent: -0.3em;";
-	DesirableH2.innerHTML = "Desirable";
+	DesirableH2.innerHTML = "Deseable";
 	DesirableUL.appendChild(DesirableH2);
 	// if(role == "\"reviewer\"")
 	// 	DesirableUL.style = "padding: 0px; display:none;";
@@ -788,7 +788,7 @@ function generateStandardChecklist(){
 	ExtraordinaryUL.id = "Extraordinary";
 	ExtraordinaryUL.style = "padding: 0px;";
 	ExtraordinaryH2.style = "padding: 0px; margin: 0px; text-indent: -0.3em;";
-	ExtraordinaryH2.innerHTML = "Extraordinary";
+	ExtraordinaryH2.innerHTML = "Extraordinario";
 	ExtraordinaryUL.appendChild(ExtraordinaryH2);
 	// if(role == "\"reviewer\"")
 	// 	ExtraordinaryUL.style = "padding: 0px; display:none;";
@@ -829,8 +829,8 @@ function generateStandardChecklist(){
 			checklistText = checklistTag.innerText.replaceAll(">", "").replaceAll("\n", "<br/>");
 			checklistText = fromMDtoHTMLformat(checklistText);
 
-			checklistText = checklistText.replaceAll('https://github.com/juancarruthers/EmpiricalStandards/blob/master/docs/', '../docs?standard=').replaceAll('.md', '');
-			checklistText = checklistText.replaceAll('https://github.com/juancarruthers/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=').replaceAll('.md', '');
+			checklistText = checklistText.replaceAll('https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=').replaceAll('.md', '');
+			checklistText = checklistText.replaceAll('https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=').replaceAll('.md', '');
 
 			checklists = convert_standard_checklists_to_html_checklists(standardTag.getAttribute('name'), checklistTag.getAttribute('name'), checklistText, footnotes)
 			var Yes_No = document.createElement("div");
@@ -840,7 +840,7 @@ function generateStandardChecklist(){
 			standard_header_text.className = "standardHeaderText";
 			//standard_header_text.innerText = standardName;
 			Yes_No.style = "align:center; font-size: 80%; font-weight: bold;";
-			Yes_No.innerHTML = "&nbsp;yes no";
+			Yes_No.innerHTML = "&nbsp;&nbsp;Si &nbsp;No";
 
 			standard_header_rule.appendChild(standard_header_text);
 			if (checklistTag.getAttribute('name') == "Essential") {
@@ -862,22 +862,22 @@ function generateStandardChecklist(){
 	form.appendChild(EssentialUL);
 
 	var submit = document.createElement("button");
-	submit.innerHTML = "Download";
+	submit.innerHTML = "Descargar";
 	submit.id = "checklist_submit";
 	submit.name = "checklist_submit";
 	submit.disabled = true;
 	submit.onclick = saveFile;
 
 	// (All 'Yes' -> accept manuscript)
-	var decision_msg = generate_message("decision_msg", "red", (role != "\"author\"" ? "The manuscript meets all essential criteria: ACCEPT." : ""), 2, 0);
+	var decision_msg = generate_message("decision_msg", "red", (role != "\"author\"" ? "El manuscrito cumple con todos los criterios esenciales: ACEPTADO." : ""), 2, 0);
 	form.appendChild(decision_msg);
 
 	if(role == "\"one-phase-reviewer\""){
 		// (At least one 'No-No-No' -> reject manuscript)
-		var deviation_unreasonable = generate_message("deviation_unreasonable", "red", "In the free-text part of your review, please explain the deviation(s) and why they are not reasonable.", 2, 0);
+		var deviation_unreasonable = generate_message("deviation_unreasonable", "red", "En la parte libre de texto de la revisión, por favor explicar las desviaciones y porque no son razonables.", 2, 0);
 		form.appendChild(deviation_unreasonable);
 		// (At least one 'No-No-Yes' -> explain fix)
-		var deviation_reasonable = generate_message("deviation_reasonable", "red", "In the free-text part of your review, please explain the deviation(s) and why they are not reasonable. Please give specific suggestions for how each deviation can be addressed.", 2, 0);
+		var deviation_reasonable = generate_message("deviation_reasonable", "red", "En la parte libre de texto de la revisión, por favor explicar las desviaciones y porque no son razonables. Por favor dar sugerencias específicas de cómo pueden ser abordadas.", 2, 0);
 		form.appendChild(deviation_reasonable);
 
 		if(deviation_unreasonable.style.display == "block"){
@@ -887,11 +887,11 @@ function generateStandardChecklist(){
 
 	else if(role == "\"two-phase-reviewer\""){
 		// (At least one 'No-No-No' -> reject manuscript)
-		var deviation_unreasonable = generate_message("deviation_unreasonable", "red", "In the free-text part of your review, please explain the deviation(s) and why they are not reasonable.", 2, 0);
+		var deviation_unreasonable = generate_message("deviation_unreasonable", "red", "En la parte libre de texto de la revisión, por favor explicar las desviaciones y porque no son razonables.", 2, 0);
 		form.appendChild(deviation_unreasonable);
 
 		// (At least one 'No-No-Yes' -> explain fix)
-		var deviation_reasonable = generate_message("deviation_reasonable", "red", "In the free-text part of your review, please explain the deviation(s) and why they are not reasonable. Please give specific suggestions for how each deviation can be addressed.", 2, 0);
+		var deviation_reasonable = generate_message("deviation_reasonable", "red", "En la parte libre de texto de la revisión, por favor explicar las desviaciones y porque no son razonables. Por favor dar sugerencias específicas de cómo pueden ser abordadas.", 2, 0);
 		form.appendChild(deviation_reasonable);
 
 		if(deviation_unreasonable.style.display == "block"){
@@ -917,7 +917,7 @@ function generateStandardChecklist(){
 	container.appendChild(HR);
 
 	var for_more_info = document.createElement("H2");
-	for_more_info.innerHTML = "For more information, see:";
+	for_more_info.innerHTML = "Para más información, consultar:";
 	container.appendChild(for_more_info);
 	var standards_path = "../docs?standard="
 	var UL = document.createElement("UL");

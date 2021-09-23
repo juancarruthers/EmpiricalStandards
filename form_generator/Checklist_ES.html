@@ -1,0 +1,99 @@
+---
+layout: default
+---   
+
+<html>
+<head>
+    <title>Empirical Standards</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../form_generator/css/appearance.css">
+    <link rel="stylesheet" href="../form_generator/css/tooltip.css">
+    <script language="javascript" type="text/javascript">
+        function showInstructions(){
+            role = location.search.split("=")[1];
+            var checklist_name = document.createElement("h1");
+            var checklist_instructions = document.createElement("p");
+            if (role == "author"){
+                checklist_name.innerHTML = "Generador de Lista de Verificación Previa al Envío";
+                checklist_instructions.innerHTML = "Para generar una lista de verificación previa al envío, seleccione todos los métodos que se aplican a su trabajo y haga clic en \"enviar\". Puede pasar el mouse sobre cada método para obtener una breve descripción o hacer clic en el nombre del método para leer el estándar completo. Si su manuscrito propone y evalúa un nuevo artefacto (por ejemplo, una herramienta), seleccione Investigación de ingeniería y los métodos empíricos utilizados para evaluar el artefacto. Si su manuscrito informa un estudio de métodos múltiples o mixtos, seleccione Metodología múltiple y ambos métodos. Si su manuscrito utiliza un método que no figura aquí, elija la última opción. Si su manuscrito no informa un estudio empírico (por ejemplo, es un artículo de opinión) no utilice este generador.";
+            }
+            // else if(role == "ease-reviewer"){
+            //     checklist_name.innerHTML = "Generador de Lista de Verificación para Revisión";
+            //     checklist_instructions.innerHTML = "Para generar una lista de verificación de revisión, seleccione todos los métodos utilizados en el manuscrito y haga clic en \"enviar\". Puede pasar el mouse sobre cada método para obtener una breve descripción o hacer clic en el nombre del método para leer el estándar completo. Si los manuscritos proponen y evalúan un nuevo artefacto (por ejemplo, una herramienta), seleccione <em> Investigación de ingeniería </em> y el método empírico utilizado para evaluar el artefacto. Si el manuscrito informa un estudio de métodos múltiples o mixtos, seleccione <em> Multimetodología </em> y ambos métodos. Si el manuscrito no informa un estudio empírico (por ejemplo, es un documento de opinión) o usa un método que no se incluye aquí, no use este generador.";
+            // }
+            else if(role == "one-phase-reviewer"){
+                checklist_name.innerHTML = "Generador de Lista de Verificación para Revisión";
+                checklist_instructions.innerHTML = "Para generar una lista de verificación de revisión, seleccione todos los métodos utilizados en el manuscrito y haga clic en \"enviar\". Puede pasar el mouse sobre cada método para obtener una breve descripción o hacer clic en el nombre del método para leer el estándar completo. Si los manuscritos proponen y evalúan un nuevo artefacto (por ejemplo, una herramienta), seleccione <em> Investigación de ingeniería </em> y el método empírico utilizado para evaluar el artefacto. Si el manuscrito informa un estudio de métodos múltiples o mixtos, seleccione <em> Multimetodología </em> y ambos métodos. Si el manuscrito no informa un estudio empírico (por ejemplo, es un documento de opinión) o usa un método que no se incluye aquí, no use este generador.";
+            }
+            else if(role == "two-phase-reviewer"){
+                checklist_name.innerHTML = "Generador de Lista de Verificación para Revisión";
+                checklist_instructions.innerHTML = "Para generar una lista de verificación de revisión, seleccione todos los métodos utilizados en el manuscrito y haga clic en \"enviar\". Puede pasar el mouse sobre cada método para obtener una breve descripción o hacer clic en el nombre del método para leer el estándar completo. Si los manuscritos proponen y evalúan un nuevo artefacto (por ejemplo, una herramienta), seleccione <em> Investigación de ingeniería </em> y el método empírico utilizado para evaluar el artefacto. Si el manuscrito informa un estudio de métodos múltiples o mixtos, seleccione <em> Multimetodología </em> y ambos métodos. Si el manuscrito no informa un estudio empírico (por ejemplo, es un documento de opinión) o usa un método que no se incluye aquí, no use este generador.";
+            }
+            var instructions_div = document.getElementById("instructions");
+            instructions_div.appendChild(checklist_name);
+            instructions_div.appendChild(checklist_instructions);
+
+            var role_input = document.createElement("input");
+            role_input.type = "hidden";
+            role_input.name = "role";
+            role_input.value = role;
+            var checklist_form = document.getElementById("checklistForm");
+            checklist_form.appendChild(role_input);
+        }
+
+        // Reset the form at the begining
+        $(window).bind("pageshow", function() {
+            $('form')[0].reset();
+        });
+
+        $(document).ready(function(){
+            /*$('.none').on('click' , function() {
+                $('.standard').each(function(){
+                    $(this).prop('checked', false);
+                })
+            });
+
+            $('.standard').on('click', function(){
+                $('.none').prop('checked', false);
+            });*/
+
+            // Enable the Submit button only when any of the checkboxes is checked; otherwise, disable.
+            $(".standard,.none").click(function() {
+                if ($("#checklistForm input[type=checkbox]:checked").length > 0)
+                    $(".button").attr("disabled", false);
+                else
+                    $(".button").attr("disabled", true);
+            });
+        });
+    </script>
+</head>
+<body onload="showInstructions();">
+<div id="container">
+    <div id="instructions"></div>
+    
+    <form id="checklistForm" action="../form_generator/result_ES.html" method="get">
+        <h2>Seleccione todos los que apliquen:</h2>
+        <input type="checkbox" class="standard" name="standard" id="Action_Research"          value="Action Research"><div class="tooltip"> <a href="../docs?standard=ActionResearch" target="_blank"> Investigación acción</a><span class="tooltiptext">Investigación empírica que estudia cómo una intervención, como la introducción de un método o herramienta, afecta un contexto de la vida real.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Benchmarking (of Software Systems)"              value="Benchmarking"><div class="tooltip"><a href="../docs?standard=Benchmarking" target="_blank"> Benchmarking</a><span class="tooltiptext">"Un estudio en el que se evalúa un sistema de software utilizando una herramienta estándar (es decir, un benchmark) para evaluar y comparar de manera competitiva métodos, técnicas o sistemas "de acuerdo con características específicas como rendimiento, confiabilidad o seguridad" (Kistowski et al. 2015).</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Case_Study"              value="Case Study"><div class="tooltip"><a href="../docs?standard=CaseStudy" target="_blank"> Estudio de caso</a><span class="tooltiptext">"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso") en profundidad y dentro de su contexto del mundo real, especialmente cuando los límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017).</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Case_Survey"             value="Case Survey"><div class="tooltip"><a href="../docs?standard=CaseSurvey" target="_blank"> Encuesta de caso</a><span class="tooltiptext">Un estudio que tiene como objetivo generalizar los resultados sobre un fenómeno complejo convirtiendo sistemáticamente las descripciones cualitativas disponibles en los estudios de casos publicados en datos cuantitativos, y analizando los datos convertidos.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Data Science"            value="Data Science"><div class="tooltip"><a href="../docs?standard=DataScience" target="_blank"> Ciencia de datos</a> <span class="tooltiptext">Minería de repositorios y otros métodos de análisis centrados en datos. El tema incluye estudios que analizan los artefactos de ingeniería de software existentes a través de la exploración de datos.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Engineering_Research"    value="Engineering Research"><div class="tooltip"><a href="../docs?standard=EngineeringResearch" target="_blank"> Investigación en Ingeniería</a> <span class="tooltiptext">Investigación que idea, diseña y evalúa artefactos tecnológicos.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Experiments"             value="Experiments"><div class="tooltip"><a href="../docs?standard=Experiments" target="_blank"> Experimento (con participantes humanos)</a><span class="tooltiptext">Un estudio en el que se introduce deliberadamente una intervención para observar sus efectos sobre algunos aspectos de la realidad en condiciones controladas.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Grounded_Theory"         value="Grounded Theory"><div class="tooltip"><a href="../docs?standard=GroundedTheory" target="_blank"> Teoría fundamentada</a><span class="tooltiptext">Un estudio de un área de interés o fenómeno específico que implica rondas iterativas e intercaladas de recopilación y análisis de datos cualitativos, que conducen a patrones clave (por ejemplo, conceptos, categorías).</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Meta_Science"            value="Meta Science"><div class="tooltip"><a href="../docs?standard=MetaScience" target="_blank"> Meta-Ciencia</a><span class="tooltiptext">Un artículo que analiza una cuestión metodológica de un estándar de investigación o hace recomendaciones para llevar adelante una investigación.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Mixed Methods"           value="Mixed Methods"><div class="tooltip"><a href="../docs?standard=MixedMethods" target="_blank"> Metodología múltiple o métodos mixtos</a> <span class="tooltiptext">Estudios que utilizan dos o más enfoques para la recopilación o el análisis de datos para corroborar, complementar y ampliar los resultados de la investigación (metodología múltiple) o combinar e integrar la investigación inductiva con la investigación deductiva (métodos mixtos), a menudo, pero no necesariamente, basándose en datos cualitativos y/o cuantitativos.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Optimization_Studies"    value="Optimization Studies"><div class="tooltip"><a href="../docs?standard=OptimizationStudies" target="_blank"> Estudios de optimización (incluyendo la Ingeniería de Software Basada en Búsquedas)</a><span class="tooltiptext">Estudios de investigación que se centren en la formulación de problemas de la Ingeniería de Software como problemas de búsqueda y apliquen técnicas de optimización para resolver dichos problemas.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Qualitative_Surveys"     value="Qualitative Surveys"><div class="tooltip"><a href="../docs?standard=QualitativeSurveys" target="_blank"> Encuestas cualitativas (es decir, entrevistas)</a><span class="tooltiptext">Investigación que comprende entrevistas semiestructuradas o abiertas.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Longitudinal"            value="Longitudinal"><div class="tooltip"><a href="../docs?standard=Longitudinal" target="_blank"> Estudio cuantitativo longitudinal</a><span class="tooltiptext">Un estudio centrado en los cambios y la evolución de un fenómeno a lo largo del tiempo.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Quantitative_Simulation" value="Quantitative Simulation"><div class="tooltip"><a href="../docs?standard=QuantitativeSimulation" target="_blank"> Simulación cuantitativa</a><span class="tooltiptext">Un estudio que involucra el desarrollo y uso de un modelo matemático que imita el comportamiento de un sistema del mundo real, que a menudo implica comprensión de problemas, recolección de datos, desarrollo de modelos, verificación, validación, diseño de experimentos, análisis de datos e implementación de resultados.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Questionnaire_Surveys"   value="Questionnaire Surveys"><div class="tooltip"><a href="../docs?standard=QuestionnaireSurveys" target="_blank"> Encuestas de cuestionarios</a><span class="tooltiptext">Un estudio en el que una muestra de encuestados responde una serie de preguntas (en su mayoría estructuradas), generalmente a través de un formulario computarizado o en papel.</span></div></input><br/><br/>
+        <input type="checkbox" class="standard" name="standard" id="Systematic_Reviews"      value="Systematic Reviews"><div class="tooltip"><a href="../docs?standard=SystematicReviews" target="_blank"> Revisión sistemática de la literatura</a><span class="tooltiptext">Estudio que evalúa, analiza y sintetiza literatura primaria o secundaria para proporcionar un resumen completo y exhaustivo de la evidencia actual con respecto a uno o más temas específicos o preguntas de investigación.</span></div></input><br/><br/>
+        <input type="checkbox" class="none"     name="standard" id="General_Standard"        value="General Standard"> Un método empírico no mencionado anteriormente.</input><br/><br/>
+        <input type="submit"   class="button"   value="Enviar" disabled>
+    </form>
+</div>
+</body>
+</html>
+

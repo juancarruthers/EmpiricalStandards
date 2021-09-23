@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Standards
+title: Estándares
 permalink: /docs/
 ---   
 

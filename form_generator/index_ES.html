@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Empirical Standards</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../form_generator/css/appearance.css">
+	<link rel="stylesheet" href="../form_generator/css/tooltip.css">
+</head>
+<body>
+<div id="container">
+	<h1>Generador de Listas de Verificación para Estándares Empíricos</h1>
+	<h3>Autores:</h3>
+	<form id="authorForm" action="../form_generator/Checklist_ES.html" method="get">
+		<input type="hidden" name="role" value="author">
+
+		<ul>
+			<li><input type="submit" class="btn-link" value="Generar una lista genérica de verificación previa al envío"></li>
+		</ul>
+	</form>
+	<!-- <form id="reviewerForm" action="../form_generator/Checklist.html" method="get">
+      <input type="hidden" name="role" value="ease-reviewer">
+
+          <ul>
+              <li><input type="submit" class="btn-link" value="Generate a review checklist for EASE 2021"></li>
+          </ul>
+    </form> -->
+	<h3>Revisores:</h3>
+	<form id="revieweForm" action="../form_generator/Checklist_ES.html" method="get">
+		<input type="hidden" name="role" value="one-phase-reviewer">
+		<ul>
+			<li><input type="submit" class="btn-link" value="Generar una lista de verificación para la revision de una fase (la mayoría de las conferencias)"></li><br>
+		</ul>
+
+	</form>
+	<form id="twoPhaseReviewForm" action="../form_generator/Checklist_ES.html" method="get">
+		<!-- <input type="hidden" name="role" value="reviewer"> -->
+		<input type="hidden" name="role" value="two-phase-reviewer">
+		<ul>
+			<li><input type="submit" class="btn-link" value="Generar una lista de verificación para la revision de dos fases (la mayoría de las revistas)"></li>
+		</ul>
+
+	</form>
+</div>
+<br><br><br><br>
+&copy; Diseñado por Paul Ralph, creado por Arham Arshad y Taher Ghaleb, y traducido por GICS (Grupo de Investigación en Calidad de Software - FaCENA - UNNE).
+</body>
+</html>
+
