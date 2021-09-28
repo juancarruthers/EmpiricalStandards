@@ -4,6 +4,6 @@ title: Acerca De
 permalink: /about/
 ---   
 
-{% capture std %}{% include_relative README.md %}{% endcapture %}
+{% capture std %}{% include_relative README_ES.md %}{% endcapture %}
 
 {{ std | markdownify }}

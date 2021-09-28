@@ -132,21 +132,21 @@ function show_hide_decision_message() {
 
 
 			if (justification_type3_checked_count + justification_type4_checked_count > 0 ){
-				msg = "REJECT";
+				msg = "RECHAZADO";
 				document.getElementById("deviation_unreasonable").style.display = "block";
 
 			} else if (justification_type2_checked_count > 0) {
-				msg = "GATEKEEP";
+				msg = "REVISAR";
 				document.getElementById("deviation_reasonable").style.display = "block";
 
 			} else if (justification_type1_checked_count > 0) {
-				msg = "ACCEPT";
+				msg = "ACEPTADO";
 				document.getElementById("deviation_reasonable").style.display = "block";
 				document.getElementById("Desirable").style.display = "block";
 				document.getElementById("Extraordinary").style.display = "block";
 
 			} else {
-				msg = "ACCEPT";
+				msg = "ACEPTADO";
 				document.getElementById("Desirable").style.display = "block";
 				document.getElementById("Extraordinary").style.display = "block";
 
@@ -180,24 +180,24 @@ function show_hide_decision_message() {
 
 			if (justification_type4_checked_count > 0 ){
 
-				msg = "REJECT";
+				msg = "RECHAZADO";
 				document.getElementById("deviation_unreasonable").style.display = "block";
 
 			} else if (justification_type3_checked_count > 0) {
-				msg = "REJECT BUT INVITE RESUBMISSION";
+				msg = "RECHAZADO PERO INVITA EL REENVIO";
 				document.getElementById("deviation_unreasonable").style.display = "block";
 
 			} else if (justification_type2_checked_count > 0) {
-				msg = "MAJOR REVISION";
+				msg = "REVISION MAYOR";
 				document.getElementById("deviation_reasonable").style.display = "block";
 			}
 			
 			else if (justification_type1_checked_count > 0) {
-				msg = "MINOR REVISION";
+				msg = "REVISION MENOR";
 				document.getElementById("deviation_reasonable").style.display = "block";
 
 			} else {
-				msg = "ACCEPT";
+				msg = "ACEPTADO";
 				document.getElementById("Desirable").style.display = "block";
 				document.getElementById("Extraordinary").style.display = "block";
 
@@ -436,7 +436,7 @@ function generate_question_block_with_radio_answers(id, class_name, question, ch
 
 	// Actual Text of the Radio button
 	deviation_block_radios.innerHTML = "&nbsp;&nbsp;&nbsp;";
-	deviationLabelYes.innerHTML = "yes&nbsp;&nbsp;";
+	deviationLabelYes.innerHTML = "si&nbsp;&nbsp;";
 	deviationLabelNo.innerHTML = "no";
 
 	// For Labels
@@ -476,10 +476,10 @@ function generate_question_block_with_type_radio_answers(id, class_name, questio
 
 	var dict = {};
 
-	dict[1] = "can be fixed by editing text only; e.g. clarifying text, adding references, changing a diagram, describing an additional limitation, copyediting.";
-	dict[2] = "can be fixed by doing some new data analysis, redoing some existing data analysis, or collecting a small amount of additional data (e.g. going back to one interviewee, collecting some additional primary studies for a systematic review).";
-	dict[3] = "can be fixed completely redoing data analysis, OR collecting additional data (e.g. conducting new or additional experiments or case studies; several new interviews, one or more additional rounds of questionnaire data collection).";
-	dict[4] = "unacceptable conduct (e.g. plagiarism, p-hacking, HARKing, unethical data collection) OR problems the cannot be fixed without doing a brand new study (e.g. fundamentally invalid measures, data collection or analysis insufficient by an order of magnitude, no chain of evidence whatsoever from data to conclusions).";
+	dict[1] = "se puede arreglar editando solo texto; por ejemplo, aclarar texto, agregar referencias, cambiar un diagrama, describir una limitación adicional, corregir.";
+	dict[2] = "puede solucionarse haciendo un nuevo análisis de datos, rehaciendo algunos análisis de datos existentes o recopilando una pequeña cantidad de datos adicionales (por ejemplo, volviendo a un entrevistado, recopilando algunos estudios primarios adicionales para una revisión sistemática).";
+	dict[3] = "se puede arreglar completamente rehaciendo el análisis de datos, O recopilando datos adicionales (por ejemplo, realizando experimentos nuevos o adicionales o estudios de casos; varias entrevistas nuevas, una o más rondas adicionales de recopilación de datos de cuestionarios).";
+	dict[4] = "conducta inaceptable (por ejemplo, plagio, piratería informática, HARKing, recopilación de datos poco ética) O problemas que no se pueden solucionar sin realizar un nuevo estudio (por ejemplo, medidas fundamentalmente inválidas, recopilación o análisis de datos insuficientes en un orden de magnitud, sin cadena de evidencia en absoluto desde los datos hasta las conclusiones).";
 
 
 
@@ -514,7 +514,7 @@ function generate_question_block_with_type_radio_answers(id, class_name, questio
     
         // Actual Text of the Radio button
         // deviationLabelType.innerHTML = "type "+i+"&nbsp;&nbsp;";
-		deviationLabelType.innerHTML = "<div class=\"tooltip\">type "+i+ "<span class=\"tooltiptext\"> "+dict[i]+"</span></div>" + "&nbsp;&nbsp;";
+		deviationLabelType.innerHTML = "<div class=\"tooltip\">tipo "+i+ "<span class=\"tooltiptext\"> "+dict[i]+"</span></div>" + "&nbsp;&nbsp;";
     
         // For Labels
         // Click on the label, click that radio button
@@ -546,12 +546,12 @@ function generate_message(id, color, text, padding, indent) {
 }
 
 function generate_author_deviation_block(checklistItem_id) {
-	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "does the manuscript justify the deviation?", checklistItem_id, 2.4);
+	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "¿El manuscrito justifica la desviación?", checklistItem_id, 2.4);
 
 	// Author-specific deviation justification message
 	var deviation_justified = generate_message("deviation_justified:" + checklistItem_id, "red", "", 0.65, -1);
 
-	var deviation_not_justified = generate_message("deviation_not_justified:" + checklistItem_id, "red", "&rdsh;&nbsp; the manuscript should either conform to the standard or clearly explain why it deviates from the standard", 0.65, -1);
+	var deviation_not_justified = generate_message("deviation_not_justified:" + checklistItem_id, "red", "&rdsh;&nbsp; el manuscrito debe ajustarse al estándar o explicar claramente por qué se desvía del estándar", 0.65, -1);
 
 	deviation_block.appendChild(deviation_justified);
 	deviation_block.appendChild(deviation_not_justified);
@@ -576,14 +576,14 @@ function generate_author_deviation_block(checklistItem_id) {
 // }
 
 function generate_one_phase_reviewer_deviation_block(checklistItem_id) {
-	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "is the deviation reasonable?", checklistItem_id, 2.40);
+	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "¿La desviación es razonable?", checklistItem_id, 2.40);
 
 	// Reviewer-specific deviation justification block
 	//var deviation_justified = generate_question_block_with_radio_answers("deviation_justified", "deviationRadio", "", checklistItem_id, 2.06);
 	var deviation_justified = generate_message("deviation_justified:" + checklistItem_id, "red", "", 2.80, -1.07);
 
 	// change this and it will break
-	var deviation_not_justified = generate_question_block_with_type_radio_answers("deviation_not_justified", "justificationRadio", "Please indicate the type of unreasonable deviations. (Pick the largest number that applies.)", checklistItem_id, 2.06);
+	var deviation_not_justified = generate_question_block_with_type_radio_answers("deviation_not_justified", "justificationRadio", "Indique el tipo de desviación irrazonable. (Elija el número más grande que corresponda).", checklistItem_id, 2.06);
 
 	// (No-No-Yes)
 	var deviation_reasonable = generate_message("deviation_reasonable:" + checklistItem_id, "red", "", 0, 0);
@@ -603,14 +603,14 @@ function generate_one_phase_reviewer_deviation_block(checklistItem_id) {
 function generate_two_phase_reviewer_deviation_block(checklistItem_id) {
 
 	// 2nd Question
-	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "Is the deviation reasonable?", checklistItem_id, 2.40);
+	var deviation_block = generate_question_block_with_radio_answers("deviation_block", "deviationRadio", "¿La desviación es razonable?", checklistItem_id, 2.40);
 
 	// Reviewer-specific deviation justification block
 	//var deviation_justified = generate_question_block_with_yes_no_radio_answers("deviation_justified", "deviationRadio", "", checklistItem_id, 2.06);
 	var deviation_justified = generate_message("deviation_justified:" + checklistItem_id, "red", "", 2.80, -1.07);
 
 	// 3rd Question
-	var deviation_not_justified = generate_question_block_with_type_radio_answers("deviation_not_justified", "justificationRadio", "Please indicate the type of unreasonable deviations. (Pick the largest number that applies.)", checklistItem_id, 2.06);
+	var deviation_not_justified = generate_question_block_with_type_radio_answers("deviation_not_justified", "justificationRadio", "Indique el tipo de desviación irrazonable. (Elija el número más grande que corresponda).", checklistItem_id, 2.06);
 
 	// (No-No-Yes)
 	var deviation_reasonable = generate_message("deviation_reasonable:" + checklistItem_id, "red", "", 0, 0);
@@ -946,7 +946,7 @@ function generateStandardChecklist(){
 function saveFile(){
 	var checklists = document.getElementById('checklists');
 	var generated_text = '=================\n' +
-		'Review Checklist\n' +
+		'Revisión Lista de Verificación \n' +
 		'=================\n';
 		
 	var accept = document.getElementById("decision_msg");
@@ -954,22 +954,22 @@ function saveFile(){
 	var reasonable = document.getElementById("deviation_reasonable");
 
 	if(accept.style.display == "block") {
-		generated_text += "\nRecommended Decision: " + accept.innerText + "\n";
+		generated_text += "\nDecisión Recomendada: " + accept.innerText + "\n";
 	}
 	
 	if(unreasonable.style.display == "block") {
-		generated_text += "\nReasons for Rejection\n";
+		generated_text += "\nRazones para el rechazo\n";
 	}
 
 	if(reasonable.style.display == "block") {
-		generated_text += "\nUnreasonable Deviations Requiring Revision\n";
+		generated_text += "\nDesviaciones Irrazonables Que Requieren Revisión\n";
 	} else {
 		generated_text += "";
 	}
 	
-	var essential_list = "\nEssential\r\n";
-	var desirable_list = "\nDesirable\r\n";
-	var extraordinary_list = "\nExtraordinary\r\n";
+	var essential_list = "\nEsencial\r\n";
+	var desirable_list = "\nDeseable\r\n";
+	var extraordinary_list = "\nExtraordinario\r\n";
 	
 	var include_desirable = false;
 	var include_extraordinary = false;
@@ -1019,7 +1019,7 @@ function saveFile(){
 
 						if (list.id == 'Essential'){
 							if (li.children[0].checked)
-								essential_list +=  'Y' + '\t   ' + li_text + '\r\n';
+								essential_list +=  'S' + '\t   ' + li_text + '\r\n';
 							else{
 								var reasonable_deviation = li.getElementsByClassName('deviationRadioYes')[0];
 								if (reasonable_deviation.checked)
@@ -1041,11 +1041,11 @@ function saveFile(){
 						else if (list.id == 'Desirable') {
 							if (li.children[0].checked) {
 								include_desirable = true;
-								desirable_list += 'Y' + '\t   ' + li_text + '\r\n';
+								desirable_list += 'S' + '\t   ' + li_text + '\r\n';
 							}
 						} else if (li.children[0].checked) {
 							include_extraordinary = true;
-							extraordinary_list += 'Y' + '\t   ' + li_text + '\r\n';
+							extraordinary_list += 'S' + '\t   ' + li_text + '\r\n';
 						}
 
 					}
@@ -1068,17 +1068,17 @@ function saveFile(){
 
 	generated_text += "\n" +
 		"=======\n" +
-		"Legend\n" +
+		"Leyenda\n" +
 		"=======\n" +
-		"Y = yes, the paper has this attribute\n" +
-		"R = a reasonable, acceptable deviation from the standards\n" +
-		"1 = a deviation that can be fixed by editing text only\n" +
-		"2 = a deviation that can be fixed by doing some new data analysis, redoing some existing data analysis, or collecting a small amount of additional data\n" +
-		"3 = a deviation that can be fixed by completely redoing data analysis, or collecting additional data\n" +
-		"4 = a deviation that cannot be fixed, or at least not without doing a brand new study\n\n\n";
+		"S = Si, el artículo tiene este atributo\n" +
+		"R = una desviación razonable, acceptable de los estándares\n" +
+		"1 = Una desviación que puede ser arreglada solo editando el texto\n" +
+		"2 = Una desviación que puede ser arreglada haciendo algún análisis de datos, rehaciendo algún análisis de datos existente, o recolectando una pequeña cantidad de datos adicionales\n" +
+		"3 = Una desviación que puede ser arreglada rehaciendo el análisis de datos completamente, o recolectando datos adicionales\n" +
+		"4 = Una desviación que no puede ser arreglada, o por lo menos no sin hacer un nuevo estudio\n\n\n";
 
 	generated_text+= "=================\n" +
-		"Standards Used\n" +
+		"Estándares Usados\n" +
 		"=================\n";
 
 	var elms = document.querySelectorAll("[id='standardNames']");
@@ -1090,7 +1090,7 @@ function saveFile(){
 
 	var newLink = document.createElement('a');
 	newLink.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(generated_text);
-	newLink.download = 'reviewChecklist.txt';
+	newLink.download = 'revisionListaVerificacion.txt';
 
     if (document.createEvent) {
         var event = document.createEvent('MouseEvents');

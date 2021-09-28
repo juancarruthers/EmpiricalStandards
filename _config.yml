@@ -1,7 +1,7 @@
 theme: minima
 markdown: kramdown
-title: Empirical Standards
-description: Empirical standards for conducting and evaluating research in software engineering
+title: Estándares Empíricos
+description: Estándares Empíricos para realizar y evaluar investigaciones en Ingeniería del Software
 header_pages:
   - tab_01_about.md
   - tab_02_tools.md
