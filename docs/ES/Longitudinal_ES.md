@@ -30,11 +30,11 @@ Para el análisis transversal, considere el **Estándar de Ciencia de Datos Expl
 
 <results>
 
-- [ ] describe los sujetos (por ejemplo, información demográfica en el caso de los seres humanos)<sup>[6](#myfootnote6)</sup>
+- [ ] Describe los sujetos (por ejemplo, información demográfica en el caso de los seres humanos)<sup>[6](#myfootnote6)</sup>
 
 <discussion>
 
-- [ ] discute la operacionalización del modelo de investigación (es decir, validez de constructo)<sup>[7](#myfootnote7)</sup>
+- [ ] Discute la operacionalización del modelo de investigación (es decir, validez de constructo)<sup>[7](#myfootnote7)</sup>
 
 <other>
     

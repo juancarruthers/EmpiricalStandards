@@ -42,7 +42,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 
 - [ ]   Justifica la selección del caso o sitio que se estudió
 - [ ]   Describe el sitio con gran detalle
-- [ ]   reports the type of case study<sup>[1](#myfootnote1)</sup>
+- [ ]   Informa el tipo de estudio de caso<sup>[1](#myfootnote1)</sup>
 - [ ]   Describe las fuentes de datos (p. ej., los datos demográficos y los roles laborales de los participantes)
 - [ ]   Define la(s) unidad(es) de análisis
 
@@ -63,7 +63,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 - [ ]   Proporciona materiales complementarios como guías para entrevistas, esquemas de codificación, ejemplos de codificación, reglas de decisión o tablas de cadena de evidencia extendida
 - [ ]   Triangula entre fuentes de datos, informantes o investigadores
 - [ ]   Verifica las declaraciones de los entrevistados (por ejemplo, con observaciones directas o registros de archivo)
-- [ ]   uses participant observation (ethnography) or direct observation (non-ethnography) and clearly integrates these observations into results<sup>[2](#myfootnote2)</sup> 
+- [ ]   Utiliza la observación del participante (etnografía) o la observación directa (no etnografía) e integra claramente estas observaciones en los resultados<sup>[2](#myfootnote2)</sup> 
 - [ ]   Valida los resultados mediante verificación de miembros, entrevistas dialógicas<sup>[3](#myfootnote3)</sup>, comentarios de profesionales no participantes o auditorías de codificación de investigación realizadas por asesores u otros investigadores
 - [ ]   Describe eventos externos y otros factores que pueden haber afectado el caso o el sitio
 - [ ]   Utiliza citas para *ilustrar* hallazgos<sup>[4](#myfootnote4)</sup>

@@ -34,7 +34,7 @@ Esta norma no se aplica a los estudios que recopilan datos primarios de una gran
 (vi) Buscar servidores de pre-impresión (por ejemplo, arXiv);
 (vii) Solicitar manuscritos no publicados a través de listas de correo electrónico o redes sociales apropiadas;
 (viii) Contactar a autores conocidos en el tema.
-- [ ]   define un esquema de codificación para convertir descripciones de casos cualitativos en variables cuantitativas<sup>[2](#myfootnote2)</sup>
+- [ ]   Define un esquema de codificación para convertir descripciones de casos cualitativos en variables cuantitativas<sup>[2](#myfootnote2)</sup>
 - [ ]   O BIEN: describe el esquema de codificación en detalle;
 O: proporciona el esquema de codificación en materiales complementarios
 - [ ]   explica claramente cómo se gestionó las ausencias de datos en el conjunto de datos

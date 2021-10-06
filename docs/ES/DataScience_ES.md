@@ -27,7 +27,7 @@ Se aplica a estudios que analizan principalmente los fenómenos de software exis
 <method>
 
 - [ ] Explica cómo y por qué se seleccionaron los datos.
-- [ ] presenta la configuración experimental (por ejemplo, usando un diagrama de flujo de datos)<sup>[2](#myfootnote2)</sup>
+- [ ] Presenta la configuración experimental (por ejemplo, usando un diagrama de flujo de datos)<sup>[2](#myfootnote2)</sup>
 - [ ] Describe los enfoques de ingeniería de características<sup>[3](#myfootnote3)</sup> y transformaciones que se aplicaron.
 - [ ] Explica cómo se preprocesaron, filtraron y categorizaron los datos.
 - [ ] O BIEN: discute las bases del estado del arte (y sus fortalezas, debilidades y limitaciones)

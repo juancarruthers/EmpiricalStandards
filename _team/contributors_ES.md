@@ -1,19 +1,17 @@
-<div style="border: ridge #5bc0de 2px;">
+﻿<div style="border: ridge #5bc0de 2px;">
 <div style="padding: 1rem">
-    <h2 id="traduccion">Traducción</h2>
+    <h2 id="traduccion">Traducción al español</h2>
     <p><strong>Juan Andres Carruthers</strong>, Universidad Nacional del Nordeste, Argentina</p>
     <p><strong>Andrea Lezcano Airaldi</strong>, Universidad Nacional del Nordeste, Argentina</p>
     <p><strong>Emanuel Irrazabal</strong>, Universidad Nacional del Nordeste, Argentina</p>
 </div>
 </div><br>
 
-## Colaboradores
-
-### Director
+## Director
 
 **Paul Ralph**, *PhD (British Columbia), B.Sc. / B.Comm (Memorial),* es un científico galardonado, autor, consultor y profesor de Ingeniería de Software en la Universidad de Dalhousie en Halifax, Canadá. Paul co-presidió la iniciativa de calidad de revisión por pares y trabajos de ACM SIGSOFT y ha escrito extensamente sobre metodología de investigación para la Ingeniería de Software.
 
-### Colaboradores de Contenido
+## Colaboradores de Contenido
 
 **Nauman bin Ali**, Blekinge Institute of Technology, Sweden [Simulaciones Cuantitativas]
 
@@ -105,7 +103,7 @@
 
 **Sira Vegas**, Technical University of Madrid, Spain [Experimento Controlado]
 
-### Colaboradores Técnicos
+## Colaboradores Técnicos
 
 **Arham Arshad**, Dalhousie University, Canada
 
