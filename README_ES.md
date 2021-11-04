@@ -1,4 +1,6 @@
-# Estándares Empíricos
+﻿# Estándares Empíricos
+
+Un _Estándar empírico_ es un breve documento público que comunica las expectativas de la investigación empírica. Aquí _empírico_ denota investigación que usa datos. Los datos pueden ser cualitativos o cuantitativos; reales o sintéticos. _Empírico_ distingue la investigación que involucra la recolección y análisis de datos de otros tipos de escritos académicos como una prueba matemática o un tratado filosófico.
 
 Además, nuestros estándares empíricos son:
 

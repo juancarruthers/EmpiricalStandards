@@ -1,4 +1,4 @@
-# El Estándar General
+﻿# El Estándar General
 
 <standard name="General Standard">
 
@@ -10,9 +10,7 @@ cuando sea posible.
 
 ## Comprobaciones Iniciales (Editor) 
 
-Reviewers should only be invited for papers with the following
-attributes. By assigning reviewers, the editor/chair/administrator is
-confirming that the manuscript meets these criteria:
+Solo se debe invitar a los revisores para trabajos con los siguientes atributos. Al asignar revisores, el editor/director/administrador confirma que el manuscrito cumple con estos criterios:
 -   Satisface los requerimientos del llamado a presentación del trabajo: cantidad de páginas, palabras claves adecuadas,
     anonimización, etc.
 -   El tema del trabajo se enmarca en el alcance del llamado a presentación.
@@ -30,8 +28,8 @@ Los trabajos deberían ser revisados por pares evaluadores siempre que tengan lo
 siguientes criterios:
 -   El revisor no tiene conflicto de interés con
     el trabajo a revisar.
--   El revisor tiene suficiente experiencia; if unsure, check with the chair
-    or editor and clarify what you can(not) evaluate
+-   El revisor tiene suficiente experiencia; si no está seguro, consulte con el director 
+    o el editor y aclare lo que (no) puede evaluar
 -   El trabajo es claro tanto en lenguaje como en su formato de presentación.
 
 ## Atributos Específicos
