@@ -475,10 +475,16 @@ function generate_question_block_with_type_radio_answers(id, class_name, questio
 {/* <span class="tooltiptext">Empirical research that investigates how an intervention, like the introduction of a method or tool, affects a real-life context</span> */}
 
 	var dict = {};
-
+    //type 1
 	dict[1] = "se puede arreglar editando solo texto; por ejemplo, aclarar texto, agregar referencias, cambiar un diagrama, describir una limitación adicional, corregir.";
+
+	//type 2
 	dict[2] = "puede solucionarse haciendo un nuevo análisis de datos, rehaciendo algunos análisis de datos existentes o recopilando una pequeña cantidad de datos adicionales (por ejemplo, volviendo a un entrevistado, recopilando algunos estudios primarios adicionales para una revisión sistemática).";
+
+	//type 3
 	dict[3] = "se puede arreglar completamente rehaciendo el análisis de datos, O recopilando datos adicionales (por ejemplo, realizando experimentos nuevos o adicionales o estudios de casos; varias entrevistas nuevas, una o más rondas adicionales de recopilación de datos de cuestionarios).";
+
+	//type 4
 	dict[4] = "conducta inaceptable (por ejemplo, plagio, piratería informática, HARKing, recopilación de datos poco ética) O problemas que no se pueden solucionar sin realizar un nuevo estudio (por ejemplo, medidas fundamentalmente inválidas, recopilación o análisis de datos insuficientes en un orden de magnitud, sin cadena de evidencia en absoluto desde los datos hasta las conclusiones).";
 
 
