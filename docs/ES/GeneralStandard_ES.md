@@ -61,7 +61,7 @@ siguientes criterios:
  
 - [ ]	Analiza las implicaciones de los resultados
 - [ ]	Analiza las limitaciones del estudio y las amenazas a la validez (threats to validity)
-- [ ]	Apoya las principales afirmaciones o conclusiones con evidencia explícita (datos / observaciones) o argumentos
+- [ ]	Establece conclusiones claras que están vinculadas con una pregunta de investigación (o propósito, etc.) y sustentado por evidencia explícita (datos / observaciones) o argumentos
 
 <other> 
   

@@ -17,12 +17,12 @@
 
 <intro>
 
-- [ ]	Identifica el tipo de revisión (por ejemplo, revisión de alcance, meta-análisis, mapeo sistemático, síntesis narrativa, estudio de casos, revisión crítica)  
+- [ ]	Identifica el tipo de revisión (por ejemplo, encuesta de caso, revisión crítica, meta-análisis, meta-síntesis, revisión de alcance)  
 
 <method>
 
 - [ ]	Presenta una descripción paso a paso, sistemática y replicable del proceso de búsqueda, incluidos los términos de la búsqueda<sup>[1](#myfootnote1)</sup>
-- [ ]	Define criterios claros de inclusión y exclusión
+- [ ]	Define criterios de selección claros
 - [ ]	Especifica los datos extraídos de cada estudio primario<sup>[2](#myfootnote2)</sup>  ; explica las relaciones con las preguntas de investigación
 - [ ]	Describe en detalle cómo se extrajeron y sintetizaron los datos (puede ser cualitativo o cuantitativo)
 - [ ]	Describe los esquemas de codificación y su uso
@@ -53,11 +53,12 @@
 (iiv) Solicitar manuscritos no publicados a través de listas de correo o redes sociales apropiadas;
 (iiiv) Contactar autores conocidos sobre el tema.
 - [ ]	Demuestra que el proceso de búsqueda es lo suficientemente riguroso para los objetivos de la revisión sistemática<sup>[3](#myfootnote3)</sup>  
-- [ ]	Evalúa la calidad de los estudios primarios; explica cómo se evaluó la calidad
-- [ ]	Evalúa la cobertura utilizando gráficos de embudo (funnel plots) o porcentaje de artículos conocidos encontrados
+- [ ]	Evalúa la calidad de los estudios primarios usando un esquema de codificación a priori (por ejemplo estándares empiricos relevantes); explica como fue evaluada la calidad; excluye estudios de baja calidad (ok) o el modelo de calidad del estudio como variable de moderación (mejor) 
+- [ ]	Evalúa la cobertura (por ejemplo, gráficos de embudo (funnel plots), método tweedle trim-and-fill, porcentaje de artículos conocidos encontrados)
 - [ ]	(Revisiones Positivistas), utiliza más de 2 analistas independientes; analiza la confiabilidad entre evaluadores (consultar el [Suplemento IRR/IRA](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explica como se resolvieron las discrepancias entre los autores<sup>[4](#myfootnote4)</sup>
 - [ ]	(Revisiones Interpretativas) reflexiona sobre cómo los sesgos del investigador pueden haber afectado su análisis
-- [ ]	Consolida los resultados mediante tablas, diagramas o gráficos; Diagrama de flujo PRISMA (cf. Moher et al. 2009)
+- [ ]	Consolida los resultados mediante tablas, diagramas o gráficos
+- [ ]   Incluye un diagrama de flujo PRISMA (cf. Moher et al. 2009)
 - [ ]	Realiza análisis a través de un marco conceptual nuevo o existente (síntesis cualitativa)
 - [ ]	Utiliza métodos de meta-análisis apropiados para estudios primarios; no utiliza el recuento de votos
 - [ ]	Integra resultados de teorías o investigaciones anteriores; identifica brechas, sesgos o direcciones futuras
@@ -119,6 +120,14 @@ Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson. 2008.
 Systematic mapping studies in software engineering. In *12th
 International Conference on Evaluation and Assessment in Software
 Engineering (EASE).* (Jun. 2008), 1–10.
+	
+## Exemplars
+
+Jo Hannay, Tore Dybå, Erik Arisholm, and Dag IK Sjøberg. 2009. The effectiveness of pair programming: A meta-analysis. _Information and software technology_ 51,7: 1110-1122.
+	
+Yahya Rafique, and Vojislav B. Mišić. 2012. The effects of test-driven development on external quality and productivity: A meta-analysis. _IEEE Transactions on Software Engineering_ 39,6: 835-856.
+	
+Martin Shepperd, David Bowes, and Tracy Hall. (2014) Researcher bias: The use of machine learning in software defect prediction. _IEEE Transactions on Software Engineering_ 40,6: 603-616.
 
 ---
 <footnote><sup>[1](#myfootnote1)</sup> Las búsquedas pueden ser manuales o automáticas o una combinación de ambas.</footnote><br>

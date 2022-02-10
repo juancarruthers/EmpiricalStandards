@@ -57,6 +57,7 @@ Este estándar no se aplica a los cuestionarios que comprenden predominantemente
 - [ ]	Valida si los elementos, el diseño, la duración y la tecnología del instrumento son apropiados (por ejemplo, utilizando pilotos, prueba-reprueba o revisiones de expertos y no expertos)
 - [ ]	Reporta cómo ha evolucionado el instrumento a través del proceso de validación (si es que lo ha hecho)
 - [ ]	Analiza el sesgo de respuesta (cuantitativamente)
+- [ ]   Incluye ítems para el control de atención en el cuestionario y excluye a los participantes que fallan uno o más de estos controles
 - [ ]	Aplica técnicas para mejorar las tasas de respuesta (por ejemplo, incentivos, recordatorios, publicidad dirigida)
 - [ ]	Analiza los posibles efectos de los incentivos (por ejemplo, sobre la voluntariedad, las tasas de respuesta, el sesgo de respuesta) si se utilizan
 - [ ]	Describe la estratificación del análisis (si se utiliza un muestreo estratificado)
@@ -97,34 +98,36 @@ Los estudios de encuestas deben abordar criterios de calidad cuantitativos como 
 
 ## Lecturas Sugeridas
 
-Don Dillman, Jolene Smyth, and Leah Christian. 2014. Internet, phone,
-mail, and mixed-mode surveys: the tailored design method. John Wiley &
+Don Dillman, Jolene Smyth, and Leah Christian. 2014. *Internet, phone,
+mail, and mixed-mode surveys: the tailored design method.* John Wiley &
 Sons.
 
 Mark Kasunic. 2005. Designing an effective survey. Tech report
 \#CMU/SEI-2005-GB-004, Carnegie-Mellon University, Pittsburgh, USA.
 
-Jefferson Seide Molléri, Kai Petersen, and Emilia Mendes. *An
+Jefferson Seide Molléri, Kai Petersen, and Emilia Mendes. 2020. An
 empirically evaluated checklist for surveys in software engineering.*
-Information and Software Technology*.* 119 (2020).
-
-Stefan Wagner, Daniel Mendez, Michael Felderer, Daniel Graziotin, Marcos
-Kalinowski. Challenges in Survey Research. In: Contemporary Empirical
-Methods in Software Engineering, *Springer,* 2020.
+Information and Software Technology*. 119.
+	
+Gary C. Moore, and Izak Benbasat. Development of an instrument to measure the perceptions of adopting an information technology innovation. *Information systems research* 2.3 (1991): 192-222.	
 
 Paul Ralph and Ewan Tempero. 2018. Construct Validity in Software
 Engineering Research and Software Metrics. In *Proceedings of the 22nd
 International Conference on Evaluation and Assessment in Software
-Engineering* 2018 (EASE'18), 13–23. DOI:10.1145/3210459.3210461
+Engineering (EASE'18)*, 13–23. DOI:10.1145/3210459.3210461
 
+Stefan Wagner, Daniel Mendez, Michael Felderer, Daniel Graziotin, Marcos
+Kalinowski. 2020. Challenges in Survey Research. In: _Contemporary Empirical
+Methods in Software Engineering_, Springer.
+		
 Marco Torchiano, Daniel Méndez, Guilherme Horta Travassos, and Rafael
 Maiani de Mello. 2017. Lessons learnt in conducting survey research. In
 *Proceedings of the 5th International Workshop on Conducting Empirical
 Studies in Industry (CESI '17)*, 33–39. DOI:10.1109/CESI.2017.5
 
-Torchiano Marco and Filippo Ricca. Six reasons for rejecting an
+Torchiano Marco and Filippo Ricca. 2013. Six reasons for rejecting an
 industrial survey paper. In *2013 1st International Workshop on
-Conducting Empirical Studies in Industry (CESI).* (2013), 21–26.
+Conducting Empirical Studies in Industry (CESI)*, 21–26.
 
 ## Ejemplares 
 

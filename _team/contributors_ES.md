@@ -21,6 +21,8 @@
 
 **Domenico Bianculli**, University of Luxemburg, Luxemburg [Ingeniería]
 
+**Preetha Chatterjee**, Drexel University, USA [Repository Mining]
+
 **Jessica Diaz**, Technical University of Madrid, Spain [IRR/IRA]
 
 **Yvonne Dittrich**, IT University of Copenhagen, Denmark [Investigación Acción]
@@ -38,6 +40,8 @@
 **Carlo Alberto Furia**, USI Lugano, Switzerland [Ingeniería]
 
 **Gregory Gay**, Chalmers University / University of Gothenburg, Sweden [Estudios de Optimización]
+
+**Daniel German**, University of Victoria, Canada [Repository Mining]
 
 **Nicolas Gold**, University College London, UK [Ética]
 
@@ -77,7 +81,7 @@
 
 **Federica Sarro**, University College London, UK [Estudios de Optimización]
 
-**Davide Taibi**, Tampere University, Finland [Estudios Longitudinales]
+**Tushar Sharma**, Dalhousie University, Canada [Repository Mining]
 
 **Janet Siegmund**, Chemnitz University of Technology, Germany [Pre-registro]
 
@@ -102,6 +106,8 @@
 **Xiaofeng Wang**, Free University of Bozen-Bolzano, Italy [Encuesta de Caso]
 
 **Sira Vegas**, Technical University of Madrid, Spain [Experimento Controlado]
+
+**Melina Vidoni**, The Australian National University, Australia [Repository Mining]
 
 ## Colaboradores Técnicos
 
