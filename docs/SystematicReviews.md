@@ -17,12 +17,12 @@
 
 <intro>
 
-- [ ]	identifies type of review (e.g. scoping review, meta-analysis, systematic mapping study, narrative synthesis, case survey, critical review)
+- [ ]	identifies type of review (e.g. case survey, critical review, meta-analysis, meta-synthesis, scoping review)
 
 <method>
 
 - [ ]	presents step-by-step, systematic, replicable description of search process including search terms<sup>[1](#myfootnote1)</sup>  
-- [ ]	defines clear inclusion and exclusion criteria
+- [ ]	defines clear selection criteria
 - [ ]	specifies the data extracted from each primary study<sup>[2](#myfootnote2)</sup>  ; explains relationships to research questions
 - [ ]	describes in detail how data were extracted and synthesized (can be qualitative or quantitative)
 - [ ]	describes coding scheme(s) and their use
@@ -53,11 +53,12 @@
 (iiv) soliciting unpublished manuscripts through appropriate listservs or social media;  
 (iiiv) contacting known authors in the area. 
 - [ ]	demonstrates that the search process is sufficiently rigorous for the systematic review goals<sup>[3](#myfootnote3)</sup>  
-- [ ]	assesses quality of primary studies using an a priori coding scheme (e.g. the *Systematic Reviews Standard*); explains how quality was assessed; excludes low quality studies (ok) or models study quality as a moderating variable (better) 
-- [ ]	assesses coverage using funnel plots or percentage of known papers found
+- [ ]	assesses quality of primary studies using an a priori coding scheme (e.g. relevant empirical standards); explains how quality was assessed; excludes low quality studies (ok) or models study quality as a moderating variable (better) 
+- [ ]	assesses coverage (e.g. funnel plots, tweedle trim-and-fill method, percentage of known papers found)
 - [ ]	(positivist reviews), uses 2+ independent analysts; analyzes inter-rater reliability (see the [IRR/IRA Supplement](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/InterRaterReliabilityAndAgreement.md)); explains how discrepancies among coders were resolved<sup>[4](#myfootnote4)</sup> 
 - [ ]	(interpretivist reviews) reflects on how researcher’s biases may have affected their analysis
-- [ ]	consolidates results using tables, diagrams, or charts; PRISMA flow diagram (cf. Moher et al. 2009)
+- [ ]	consolidates results using tables, diagrams, or charts 
+- [ ]   includes a PRISMA flow diagram (cf. Moher et al. 2009)
 - [ ]	performs analysis through an existing or new conceptual framework (qualitative synthesis)
 - [ ]	uses meta-analysis methods appropriate for primary studies; does not use vote counting 
 - [ ]	integrates results into prior theory or research; identifies gaps, biases, or future directions
@@ -119,6 +120,14 @@ Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson. 2008.
 Systematic mapping studies in software engineering. In *12th
 International Conference on Evaluation and Assessment in Software
 Engineering (EASE).* (Jun. 2008), 1–10.
+	
+## Exemplars
+
+Jo Hannay, Tore Dybå, Erik Arisholm, and Dag IK Sjøberg. 2009. The effectiveness of pair programming: A meta-analysis. _Information and software technology_ 51,7: 1110-1122.
+	
+Yahya Rafique, and Vojislav B. Mišić. 2012. The effects of test-driven development on external quality and productivity: A meta-analysis. _IEEE Transactions on Software Engineering_ 39,6: 835-856.
+	
+Martin Shepperd, David Bowes, and Tracy Hall. (2014) Researcher bias: The use of machine learning in software defect prediction. _IEEE Transactions on Software Engineering_ 40,6: 603-616.
 
 ---
 <footnote><sup>[1](#myfootnote1)</sup> Searches can be manual or automated or a combination of both.</footnote><br>
