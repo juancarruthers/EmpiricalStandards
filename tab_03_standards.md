@@ -77,7 +77,7 @@ function openStandardFromURL(evt) {
   <button id="QualitativeSurveys_b"     class="tablinks" onclick="openStandard(event, 'QualitativeSurveys')">Encuestas Cualitativas</button>
   <button id="QuantitativeSimulation_b" class="tablinks" onclick="openStandard(event, 'QuantitativeSimulation')">Simulación Cuantitativa</button>
   <button id="QuestionnaireSurveys_b"   class="tablinks" onclick="openStandard(event, 'QuestionnaireSurveys')">Encuestas de Cuestionarios</button>
-  <button id="RepositoryMining_b"       class="tablinks" onclick="openStandard(event, 'RepositoryMining')">Repository Mining</button>
+  <button id="RepositoryMining_b"       class="tablinks" onclick="openStandard(event, 'RepositoryMining')">Minado de Repositorios</button>
   <button id="SystematicReviews_b"      class="tablinks" onclick="openStandard(event, 'SystematicReviews')">Revisión Sistemática</button>
 </div>
 <br>
@@ -193,7 +193,7 @@ function openStandardFromURL(evt) {
 
 <div id="RepositoryMining" class="tabcontent">
   <p>
-    {% capture std %}{% include_relative docs/RepositoryMining.md %}{% endcapture %}
+    {% capture std %}{% include_relative docs/ES/RepositoryMining_ES.md %}{% endcapture %}
     {{ std | remove: '<standard name="Repository Mining">' | remove: '<checklist name="Essential">' | remove: '<checklist name="Desirable">' | remove: '<checklist name="Extraordinary">' | remove: '</checklist>' | remove: '</standard>' | remove: '<footnote>' | remove: '</footnote>' | remove: '<intro>' | remove: '<method>' | remove: '<results>' | remove: '<discussion>' | remove: '<other>' | replace: '- [ ]', '-' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/docs/', '../docs?standard=' | replace: 'https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/', '../Supplements?supplement=' | replace: '.md', '' | markdownify }}
   </p>
 </div>
