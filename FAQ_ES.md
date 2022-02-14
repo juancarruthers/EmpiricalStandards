@@ -2,7 +2,7 @@
 
 ### Donde puedo encontrar los estándares?
 
-Puede encontrar los estándares, nuestro informe y presentación aquí: https://github.com/juancarruthers/EmpiricalStandards
+Puede encontrar los estándares, nuestro informe y presentación aquí: https://github.com/acmsigsoft/EmpiricalStandards
 
 ### ¿Los estándares conducirán a trabajos de menor calidad, ya que los investigadores intentan hacer lo mínimo para obtener publicaciones?
 
