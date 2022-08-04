@@ -1,8 +1,12 @@
 ﻿# Investigación Acción
 <standard name="Action Research">
 
-*Investigación empírica que estudia cómo una intervención, como la 
-introducción de un método o herramienta, afecta un contexto de la vida real.*
+
+
+*<desc>Investigación empírica que estudia cómo una intervención, como la 
+introducción de un método o herramienta, afecta un contexto de la vida real</desc>*
+
+
 
 ## Aplicación
 

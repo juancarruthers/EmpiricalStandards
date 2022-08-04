@@ -1,7 +1,9 @@
 # Engineering Research (AKA Design Science) 
 <standard name="Engineering Methods">
 
-*Research that invents and evaluates technological artifacts*
+
+*<desc>Research that invents and evaluates technological artifacts</desc>*
+
 
 ## Application 
 
@@ -131,7 +133,7 @@ on Design Science Research in Information Systems and Technology
 (DESRIST '09).* Association for Computing Machinery, New York, NY, USA,
 Article 9, 1–11. DOI: 10.1145/1555619.1555631
 
-Carlo Ghezzi. 2020. *Being a researcher - an informatics perspective*.
+Carlo Ghezzi. 2020. *Being a researcher: An informatics perspective*.
 Springer Nature.
 
 Alan Hevner and Samir Chatterjee. 2010. *Design Research in Information
@@ -144,7 +146,7 @@ Design Science in Information Systems Research. *MIS Quarterly*, 28, 1
 (Mar. 2004), 75–105. DOI:10.2307/25148625.
 
 Roel Wieringa. 2014. *Design science methodology for information systems
-and software engineering.* Springer*.*
+and software engineering.* Springer, Berlin.
 
 ## Exemplars
 
@@ -168,11 +170,6 @@ August Shi, Suresh Thummalapenta, Shuvendu Lahiri, Nikolaj Bjorner and
 Jacek Czerwonka. (2017) Optimizing Test Placement for Module-Level
 Regression Testing. In *Proceedings of the 39th International Conference
 on Software Engineering.*
-
-Magnus Madsen, Frank Tip, Esben Andreasen, Koushik Sen, and Anders
-Møller. 2016. Feedback-Directed Instrumentation for Deployed JavaScript
-Applications. In *Proceedings of the 38th International Conference on
-Software Engineering.*
 
 ---
 <footnote><sup>[1](#myfootnote1)</sup> e.g., does the paper describe the overall workflow of the solution, showing how different techniques work together? Are algorithmic contributions presented in an unambiguous way? Are the key parts of a formal model presented explicitly? Are the novel components of the solution clearly singled out?</footnote><br>

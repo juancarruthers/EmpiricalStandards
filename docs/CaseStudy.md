@@ -1,9 +1,11 @@
 # Case Study and Ethnography 
 <standard name="Case Study and Ethnography">
 
-*"An empirical inquiry that investigates a contemporary phenomenon (the
+
+*<desc>"An empirical inquiry that investigates a contemporary phenomenon (the
 "case") in depth and within its real-world context, especially when the
-boundaries between phenomenon and context \[are unclear\]" (Yin 2017)*
+boundaries between phenomenon and context \[are unclear\]" (Yin 2017)</desc>*
+
 
 ## Application 
 
@@ -131,7 +133,7 @@ different purposes, including:
     explanatory case studies that seek to establish causality.
 -   Lack of reproducibility or a "replication package"; Data are not
     disclosed (qualitative data are often confidential).
--   Insufficient number of length of interviews. There is no magic
+-   Insufficient number or length of interviews. There is no magic
     number; what matters is that there is enough data that the findings
     are credible, and the description is deep and rich.
 

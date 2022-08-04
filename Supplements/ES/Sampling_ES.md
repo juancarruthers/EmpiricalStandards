@@ -62,7 +62,7 @@ Este estándar se aplica a la investigación empírica en la que el investigador
 
 ## Lecturas Sugeridas
 
-Sebastian Baltes and Paul Ralph. 2020. Sampling in Software Engineering Research: A Critical Review and Guidelines. _arXiv_. [https://arxiv.org/abs/2002.07764](https://arxiv.org/abs/2002.07764)
+Sebastian Baltes and Paul Ralph. 2020. Sampling in Software Engineering Research: A Critical Review and Guidelines. Empirical Software Engineering. [https://arxiv.org/abs/2002.07764](https://arxiv.org/abs/2002.07764)
 
 William G. Cochran. 2007. Sampling techniques. _Wiley_.
 

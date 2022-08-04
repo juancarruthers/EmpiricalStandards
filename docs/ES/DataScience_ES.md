@@ -1,7 +1,7 @@
 # Ciencia de Datos
 <standard name="Data Science">
 
-Estudios que analizan fenómenos o artefactos de la Ingeniería de Software utilizando métodos de análisis centrados en datos como el aprendizaje automático u otras aplicaciones de inteligencia computacional, así como enfoques basados en búsquedas.<footnote><sup>[1](#myfootnote1)</sup>
+<desc>Estudios que analizan fenómenos o artefactos de la Ingeniería de Software utilizando métodos de análisis centrados en datos como el aprendizaje automático u otras aplicaciones de inteligencia computacional, así como enfoques basados en búsquedas.<footnote></desc><sup>[1](#myfootnote1)</sup>
 
 ## Aplicación
 

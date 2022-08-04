@@ -1,9 +1,11 @@
 ﻿# Estudio de caso y Etnografía
 <standard name="Case Study and Ethnography">
 
-*"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso")
+
+*<desc>"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso")
  en profundidad y dentro de su contexto del mundo real, especialmente cuando los 
- límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017)*
+ límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017)</desc>*
+
 
 ## Aplicación
 
@@ -130,7 +132,7 @@ y sirven para diferentes propósitos, que incluyen:
     casos explicativos que buscan establecer la causalidad.
 -   Falta de reproducibilidad o "paquete de replicación"; Los datos no se divulgan 
     (los datos cualitativos suelen ser confidenciales).
--   Número de entrevistas de duración insuficiente. No existe un número mágico; 
+-   Número o duración de entrevistas insuficiente. No existe un número mágico; 
     lo que importa es que haya suficientes datos para que los hallazgos sean 
     creíbles y la descripción sea profunda y rica.
 

@@ -1,7 +1,13 @@
 # Guías Metodológicas y Meta-Ciencia
 <standard name="Meta Science">
 
+<desc>
+
+
 Un artículo que analiza una cuestión metodológica de un estándar de investigación o hace recomendaciones para llevar adelante una investigación.
+
+</desc>
+
 
 ## Aplicación
 

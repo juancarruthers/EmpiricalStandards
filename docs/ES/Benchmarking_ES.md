@@ -1,7 +1,11 @@
 # Benchmarking (de sistemas software)
 <standard name="Benchmarking (of Software Systems)">
-         
-"Un estudio en el que se evalúa un sistema de software utilizando una herramienta estándar (es decir, un benchmark) para evaluar y comparar de manera competitiva métodos, técnicas o sistemas "de acuerdo con características específicas como rendimiento, confiabilidad o seguridad" (Kistowski et al. 2015).
+ 
+<desc>
+        
+Un estudio en el que se evalúa un sistema de software utilizando una herramienta estándar (es decir, un benchmark) para evaluar y comparar de manera competitiva métodos, técnicas o sistemas "de acuerdo con características específicas como rendimiento, confiabilidad o seguridad" (Kistowski et al. 2015).
+
+</desc>
 
 ## Aplicación 
 

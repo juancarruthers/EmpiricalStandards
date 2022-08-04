@@ -1,9 +1,12 @@
 ﻿# Teoría Fundamentada
 <standard name="Grounded Theory">
 
-*Un estudio de un área de interés o fenómeno específico que implica rondas 
+
+
+*<desc>Un estudio de un área de interés o fenómeno específico que implica rondas 
 iterativas e intercaladas de recopilación y análisis de datos cualitativos, 
-que conducen a patrones clave (por ejemplo, conceptos, categorías)*
+que conducen a patrones clave (por ejemplo, conceptos, categorías)</desc>*
+                                                                  
 
 ## Aplicacion 
 

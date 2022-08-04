@@ -1,6 +1,14 @@
 # Revisiones Sistemáticas
 <standard name="Systematic Reviews">
-<em>Estudio que evalúa, analiza y sintetiza literatura primaria o secundaria para proporcionar un resumen completo y exhaustivo de la evidencia actual con respecto a uno o más temas específicos o preguntas de investigación.</em>
+
+
+<desc>
+
+Estudio que evalúa, analiza y sintetiza literatura primaria o secundaria para proporcionar un resumen completo y exhaustivo de la evidencia actual con respecto a uno o más temas específicos o preguntas de investigación
+
+</desc>
+
+
 
 ## Aplicación
 
@@ -71,6 +79,8 @@
 
 - [ ]	Dos o más investigadores realizan de forma independiente el proceso de búsqueda preliminar antes de finalizar el alcance y las palabras clave de la búsqueda
 - [ ]	Contacto con los autores principales del estudio para asegurarse de que las interpretaciones sean correctas y obtener detalles adicionales que no se encuentran en los artículos, como el acceso a datos sin procesar
+- [ ]	Aplica análisis de datos de integración<sup>[5](#myfootnote6)</sup>	
+
 </checklist>
 
 ## Ejemplos de Desviaciones Aceptables
@@ -135,4 +145,5 @@ Martin Shepperd, David Bowes, and Tracy Hall. (2014) Researcher bias: The use of
 <footnote><sup>[3](#myfootnote3)</sup> Por ejemplo, el meta-análisis formal de experimentos tiene mayores requisitos de integridad que los estudios de mapeo de áreas temáticas amplias.</footnote><br>
 <footnote><sup>[4](#myfootnote4)</sup> Por medio de discusión y acuerdo, votación, agregando un evaluador que desempate, consultando con los autores del estudio, etc.</footnote><br>
 <footnote><sup>[5](#myfootnote5)</sup> Por lo general, basta con separar los resultados y la discusión en secciones diferentes. Sin especulaciones en la sección de resultados.</footnote><br>
+<footnote><sup>[6](#myfootnote6)</sup> Consultar https://idaunc.web.unc.edu/home/ida/</footnote><br>
 </standard>

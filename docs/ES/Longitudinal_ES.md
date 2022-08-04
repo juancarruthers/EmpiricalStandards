@@ -1,7 +1,11 @@
 # Estudios Longitudinales
 <standard name="Longitudinal">
 
-*Un estudio centrado en los cambios y la evolución de un fenómeno a lo largo del tiempo*
+
+
+*<desc>Un estudio centrado en los cambios y la evolución de un fenómeno a lo largo del tiempo</desc>*
+
+
 
 ## Aplicación
 

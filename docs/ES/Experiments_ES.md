@@ -1,8 +1,11 @@
 # Experimentos (con Participantes Humanos) 
 <standard name="Experiments (with Human Participants)">
 
-*Un estudio en el que se introduce deliberadamente una intervención para observar
-sus efectos sobre algunos aspectos de la realidad en condiciones controladas*
+
+
+*<desc>Un estudio en el que se introduce deliberadamente una intervención para observar
+sus efectos sobre algunos aspectos de la realidad en condiciones controladas</desc>*
+                                                                            
 
 ## Aplicación
 
@@ -31,7 +34,7 @@ Exploratorios** o el **Estándar de Investigación de Ingeniería**.
 <method>
     
 - [ ]	Establece hipótesis formales
-- [ ]	Justifica el uso de hipótesis unilaterales (si las hay) basadas en la validez aparente o en trabajos previos
+- [ ]	Utiliza hipótesis de dos colas o justifica el uso de hipótesis unilaterales (si las hay) basadas en la validez aparente o en trabajos previos
 - [ ]	Describe las variables dependientes y justifica cómo se miden (incluidas las unidades, los instrumentos)
 - [ ]	Describe las variables independientes y cómo se manipulan o miden
 - [ ]	Describe variables extrañas y cómo se controlan o no

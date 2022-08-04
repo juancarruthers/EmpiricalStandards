@@ -1,8 +1,11 @@
 # Experiments (with Human Participants) 
 <standard name="Experiments (with Human Participants)">
 
-*A study in which an intervention is deliberately introduced to observe
-its effects on some aspects of reality under controlled conditions*
+
+
+*<desc>A study in which an intervention is deliberately introduced to observe
+its effects on some aspects of reality under controlled conditions</desc>*
+
 
 ## Application 
 
@@ -31,7 +34,7 @@ Science Standard** or the **Engineering Research Standard**.
 <method>
     
 - [ ]	states formal hypotheses
-- [ ]	justifies use of one-sided hypotheses (if any) based on face validity or previous work
+- [ ]	uses two-sided hypotheses OR justifies use of one-sided hypotheses based on face validity or previous work
 - [ ]	describes the dependent variable(s) and justifies how they are measured (including units, instruments)
 - [ ]	describes the independent variable(s) and how they are manipulated or measured
 - [ ]	describes extraneous variables and how they are controlled, or not    

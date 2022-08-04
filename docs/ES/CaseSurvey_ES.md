@@ -1,7 +1,11 @@
 # Encuesta de Caso (Alias Meta-Análisis de Caso)
 <standard name="Case Survey">
 
-*Un estudio que tiene como objetivo generalizar los resultados sobre un fenómeno complejo convirtiendo sistemáticamente las descripciones cualitativas disponibles en los estudios de casos publicados en datos cuantitativos, y analizando los datos convertidos.*
+
+
+*<desc>Un estudio que tiene como objetivo generalizar los resultados sobre un fenómeno complejo convirtiendo sistemáticamente las descripciones cualitativas disponibles en los estudios de casos publicados en datos cuantitativos, y analizando los datos convertidos</desc>*
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                        
 
 ## Aplicación
 

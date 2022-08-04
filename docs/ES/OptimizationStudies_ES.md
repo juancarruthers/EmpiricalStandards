@@ -1,7 +1,11 @@
 # Estudios de Optimización en IS (incluyendo la Ingeniería de Software Basada en Búsquedas)
 <standard name="Optimization Studies">
 
-*Estudios de investigación que se centren en la formulación de problemas de la Ingeniería de Software como problemas de búsqueda y apliquen técnicas de optimización para resolver dichos problemas*<sup>[1](#myfootnote1)</sup>.  
+
+
+*<desc>Estudios de investigación que se centren en la formulación de problemas de la Ingeniería de Software como problemas de búsqueda y apliquen técnicas de optimización para resolver dichos problemas</desc>*<sup>[1](#myfootnote1)</sup>.  
+
+
 
 ## Aplicación
 

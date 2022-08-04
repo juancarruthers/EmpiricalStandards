@@ -2,7 +2,8 @@
 
 <standard name="Mixed Methods">
 
-*Estudios que utilizan dos o más enfoques para la recopilación o el análisis de datos para corroborar, complementar y ampliar los resultados de la investigación (metodología múltiple) o combinar e integrar la investigación inductiva con la investigación deductiva (métodos mixtos), a menudo, pero no necesariamente, basándose en datos cualitativos y/o cuantitativos.*
+
+*<desc>Estudios que utilizan dos o más enfoques para la recopilación o el análisis de datos para corroborar, complementar y ampliar los resultados de la investigación (metodología múltiple) o combinar e integrar la investigación inductiva con la investigación deductiva (métodos mixtos), a menudo, pero no necesariamente, basándose en datos cualitativos y/o cuantitativos.</desc>*
 
 ## Aplicación
 

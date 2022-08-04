@@ -1,7 +1,11 @@
 # Minado de Repositorios
 <standard name="Repository Mining">   
 
-*Un estudio que analiza cuantitativamente un conjunto de datos extraído de una plataforma que aloja texto estructurado o semiestructurado (por ejemplo, un repositorio de código fuente)*    
+
+
+*<desc>Un estudio que analiza cuantitativamente un conjunto de datos extraído de una plataforma que aloja texto estructurado o semiestructurado (por ejemplo, un repositorio de código fuente)</desc>*    
+                                                                                                                                                                                               
+                                                                                                                                                                                                
     
 ## Aplicación    
     

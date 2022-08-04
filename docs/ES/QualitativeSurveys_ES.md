@@ -1,7 +1,10 @@
 # Encuestas Cualitativas (Estudios de Entrevistas) 
 <standard name="Qualitative Surveys (Interview Studies)">
 
-_Investigación que comprende entrevistas semiestructuradas o abiertas._
+
+
+_<desc>Investigación que comprende entrevistas semiestructuradas o abiertas</desc>_
+
 
 ## Aplicación 
 

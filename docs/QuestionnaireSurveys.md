@@ -1,8 +1,11 @@
 # Questionnaire Surveys 
 <standard name="Questionnaire Surveys">
 
-*A study in which a sample of respondents answer a series of (mostly structured) questions,
-typically through a computerized or paper form*
+
+
+*<desc>A study in which a sample of respondents answer a series of (mostly structured) questions,
+typically through a computerized or paper form</desc>*
+
 
 ## Application
 
@@ -31,12 +34,12 @@ typically given to participants in controlled experiments (see the
 - [ ]	identifies the target population and defines the sampling strategy (see the [Sampling Supplement](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]	describes how the questionnaire instrument was created
 - [ ]	describes how participants were selected or recruited (e.g. sampling frame, advertising, invitations, incentives)
-- [ ]	step-by-step, systematic, replicable description of data collection and analysis
-- [ ]	describes how responses were managed/monitored, including contingency actions for non-responses and drop-outs
 - [ ]	EITHER: measures constructs using (or adapting) validated scales    
 	 OR: analyzes construct validity (including content, convergent, discriminant and predictive validity) ex post<sup>[3](#myfootnote3)</sup>
+- [ ]	describes how responses were managed/monitored, including contingency actions for non-responses and drop-outs
 - [ ]	explains handling of missing data (e.g. imputation, weighting adjustments, discarding)
-
+- [ ]	step-by-step, systematic, replicable description of data collection and analysis
+	
 <results>
 
 - [ ]	analyzes response rates
@@ -64,6 +67,7 @@ typically given to participants in controlled experiments (see the
 - [ ]	analyzes response bias (quantitatively)
 - [ ]   includes attention-check items in the questionnaire, and excludes participants who fail one or more of these checks
 - [ ]	applies techniques for improving response rates (e.g. incentives, reminders, targeted advertising)
+- [ ]   applies an advanced method of handling missing data (e.g. Full Information Maximum Likelihood, Multiple Imputation, Bayesian methods)
 - [ ]	discusses possible effects of incentives (e.g. on voluntariness, response rates, response bias) if used
 - [ ]	describes the stratification of the analysis (if stratified sampling is used)
 - [ ]	defines and estimates the size of the population strata (if applicable)
@@ -117,13 +121,14 @@ as **internal validity**, **construct validity**, **external validity**,
 Don Dillman, Jolene Smyth, and Leah Christian. 2014. *Internet, phone,
 mail, and mixed-mode surveys: the tailored design method.* John Wiley &
 Sons.
+	
+Daniel Graziotin, Per Lenberg, Robert Feldt, and Stefan Wagner. 2021. Psychometrics in behavioral software engineering: A methodological introduction with guidelines. _ACM Transactions on Software Engineering and Methodology (TOSEM)_, 31(1), 1-36. DOI:10.1145/3469888
 
 Mark Kasunic. 2005. Designing an effective survey. Tech report
 \#CMU/SEI-2005-GB-004, Carnegie-Mellon University, Pittsburgh, USA.
 
 Jefferson Seide Molléri, Kai Petersen, and Emilia Mendes. 2020. An
-empirically evaluated checklist for surveys in software engineering.*
-Information and Software Technology*. 119.
+empirically evaluated checklist for surveys in software engineering. *Information and Software Technology*. 119.
 	
 Gary C. Moore, and Izak Benbasat. Development of an instrument to measure the perceptions of adopting an information technology innovation. *Information systems research* 2.3 (1991): 192-222.	
 
@@ -172,6 +177,6 @@ DOI:10.1145/3306607
 ---
 <footnote><sup>[1](#myfootnote1)</sup> There is currently no standard for predominately open-ended questionnaire surveys. One exemplar readers could draw from is: Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson. 2018. "What happens when software developers are (un)happy." Journal of Systems and Software 140, 32-47.</footnote><br>
 <footnote><sup>[2](#myfootnote2)</sup> questions are mapped to research objectives and their wording and format is appropriate for their audience</footnote><br>
-<footnote><sup>[3](#myfootnote3)</sup> For advice on analyzing construct validity, see Ralph, Paul, and Ewan Tempero. "Construct validity in software engineering research and software metrics." In Proceedings of the 22nd International Conference on Evaluation and Assessment in Software Engineering 2018, pp. 13-23</footnote <br>
+<footnote><sup>[3](#myfootnote3)</sup> For advice on analyzing construct validity, see recommended readings Graziotin et al. (2021) and Ralph and Tempero (2018)</footnote <br>
 <footnote><sup>[4](#myfootnote4)</sup> Simply separating results and discussion into different sections is typically sufficient. No speculation in the results section.</footnote><br>
 </standard>

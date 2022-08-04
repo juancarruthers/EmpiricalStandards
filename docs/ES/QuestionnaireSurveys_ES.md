@@ -1,7 +1,10 @@
 # Encuestas de Cuestionarios 
 <standard name="Questionnaire Surveys">
 
-*Un estudio en el que una muestra de encuestados responde una serie de preguntas (en su mayoría estructuradas), generalmente a través de un formulario computarizado o en papel.*
+
+
+*<desc>Un estudio en el que una muestra de encuestados responde una serie de preguntas (en su mayoría estructuradas), generalmente a través de un formulario computarizado o en papel</desc>*
+
 
 ## Aplicación
 
@@ -23,14 +26,14 @@ Este estándar no se aplica a los cuestionarios que comprenden predominantemente
 
 <method>
 
-- [ ]   Identifica la población objetivo y define la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
+- [ ]  Identifica la población objetivo y define la estrategia de muestreo (consulte el [Suplemento de muestreo](https://github.com/acmsigsoft/EmpiricalStandards/blob/master/Supplements/Sampling.md))
 - [ ]  Describe cómo se creó el instrumento de cuestionario
 - [ ]  Describe cómo se seleccionaron o reclutaron los participantes (por ejemplo, marco de muestreo, publicidad, invitaciones, incentivos)
-- [ ]  Descripción paso a paso, sistemática y reproducible de la recopilación y el análisis de datos
-- [ ]  Describe cómo se gestionaron/supervisaron las respuestas, incluidas las acciones de contingencia para las no respuestas y los abandonos
 - [ ]  O BIEN: mide los constructos usando (o adaptando) escalas validadas
        O: analiza la validez de constructo (incluida la validez de contenido, convergente, discriminante y predictiva) ex post<sup>[3](#myfootnote3)</sup>
+- [ ]  Describe cómo se gestionaron/supervisaron las respuestas, incluidas las acciones de contingencia para las no respuestas y los abandonos
 - [ ]  Explica el manejo de los datos faltantes (por ejemplo, imputación, ajustes de ponderación, descarte)
+- [ ]  Descripción paso a paso, sistemática y reproducible de la recopilación y el análisis de datos
 
 <results>
 
@@ -59,6 +62,7 @@ Este estándar no se aplica a los cuestionarios que comprenden predominantemente
 - [ ]	Analiza el sesgo de respuesta (cuantitativamente)
 - [ ]   Incluye ítems para el control de atención en el cuestionario y excluye a los participantes que fallan uno o más de estos controles
 - [ ]	Aplica técnicas para mejorar las tasas de respuesta (por ejemplo, incentivos, recordatorios, publicidad dirigida)
+- [ ]   Aplica a métodos para manejar datos faltantes (por ejemplo, Información de Máxima Similaridad Completa, Imputación múltiple, Métodos Bayesianos)
 - [ ]	Analiza los posibles efectos de los incentivos (por ejemplo, sobre la voluntariedad, las tasas de respuesta, el sesgo de respuesta) si se utilizan
 - [ ]	Describe la estratificación del análisis (si se utiliza un muestreo estratificado)
 - [ ]	Define y estima el tamaño de los estratos de la población (si corresponde)
@@ -101,13 +105,14 @@ Los estudios de encuestas deben abordar criterios de calidad cuantitativos como 
 Don Dillman, Jolene Smyth, and Leah Christian. 2014. *Internet, phone,
 mail, and mixed-mode surveys: the tailored design method.* John Wiley &
 Sons.
+	
+Daniel Graziotin, Per Lenberg, Robert Feldt, and Stefan Wagner. 2021. Psychometrics in behavioral software engineering: A methodological introduction with guidelines. _ACM Transactions on Software Engineering and Methodology (TOSEM)_, 31(1), 1-36. DOI:10.1145/3469888
 
 Mark Kasunic. 2005. Designing an effective survey. Tech report
 \#CMU/SEI-2005-GB-004, Carnegie-Mellon University, Pittsburgh, USA.
 
 Jefferson Seide Molléri, Kai Petersen, and Emilia Mendes. 2020. An
-empirically evaluated checklist for surveys in software engineering.*
-Information and Software Technology*. 119.
+empirically evaluated checklist for surveys in software engineering.*Information and Software Technology*. 119.
 	
 Gary C. Moore, and Izak Benbasat. Development of an instrument to measure the perceptions of adopting an information technology innovation. *Information systems research* 2.3 (1991): 192-222.	
 
@@ -156,6 +161,6 @@ DOI:10.1145/3306607
 ---
 <footnote><sup>[1](#myfootnote1)</sup> Actualmente no existe un estándar para encuestas con cuestionarios predominantemente abiertos. Un ejemplo del que los lectores pueden sacar es: Daniel Graziotin, Fabian Fagerholm, Xiaofeng Wang, and Pekka Abrahamsson. 2018. "What happens when software developers are (un)happy." Journal of Systems and Software 140, 32-47.</footnote><br>
 <footnote><sup>[2](#myfootnote2)</sup> Las preguntas se asignan a los objetivos de la investigación y su redacción y formato es apropiado para su audiencia.</footnote><br>
-<footnote><sup>[3](#myfootnote3)</sup> Para consejos sobre el análisis de la validez de constructo, consulte Ralph, Paul, and Ewan Tempero. "Construct validity in software engineering research and software metrics." In Proceedings of the 22nd International Conference on Evaluation and Assessment in Software Engineering 2018, pp. 13-23</footnote><br>
+<footnote><sup>[3](#myfootnote3)</sup> Para consejos sobre el análisis de la validez de constructo, consulte lecturas sugeridas Graziotin et al. (2021) y Ralph and Tempero (2018)</footnote><br>
 <footnote><sup>[4](#myfootnote4)</sup> Por lo general, basta con separar los resultados y la discusión en diferentes secciones. Sin especulaciones en la sección de resultados.</footnote><br>
 </standard>

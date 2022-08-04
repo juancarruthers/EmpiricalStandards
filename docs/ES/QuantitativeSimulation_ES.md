@@ -1,7 +1,11 @@
 # Simulación (Cuantitativa)
 <standard name="Simulation">
 
-*Un estudio que involucra el desarrollo y uso de un modelo matemático que imita el comportamiento de un sistema del mundo real, que a menudo implica comprensión de problemas, recolección de datos, desarrollo de modelos, verificación, validación, diseño de experimentos, análisis de datos e implementación de resultados.*
+
+
+*<desc>Un estudio que involucra el desarrollo y uso de un modelo matemático que imita el comportamiento de un sistema del mundo real, que a menudo implica comprensión de problemas, recolección de datos, desarrollo de modelos, verificación, validación, diseño de experimentos, análisis de datos e implementación de resultados.</desc>*
+                                                                                                                                                                                                                                                                                                                                     
+
 
 ## Aplicación
 
