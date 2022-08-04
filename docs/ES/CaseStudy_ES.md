@@ -132,7 +132,7 @@ y sirven para diferentes propósitos, que incluyen:
     casos explicativos que buscan establecer la causalidad.
 -   Falta de reproducibilidad o "paquete de replicación"; Los datos no se divulgan 
     (los datos cualitativos suelen ser confidenciales).
--   Número o duración de entrevistas insuficiente. No existe un número mágico; 
+-   Número de entrevistas de duración insuficiente. No existe un número mágico; 
     lo que importa es que haya suficientes datos para que los hallazgos sean 
     creíbles y la descripción sea profunda y rica.
 
