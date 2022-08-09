@@ -4,7 +4,9 @@
 
 *<desc>"Una investigación empírica que estudia un fenómeno contemporáneo (el "caso")
  en profundidad y dentro de su contexto del mundo real, especialmente cuando los 
- límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017)</desc>*
+ límites entre el fenómeno y el contexto \[no están claros\]" (Yin 2017)<br><br>
+ "Un estudio de caso es la investigación empírica de un caso que utiliza múltiples métodos de recolección de datos
+ para estudiar un fenómeno contemporáneo en su contexto real y donde los investigadores del estudio no toman un rol activo en el caso investigado" (Wohlin 2021)</desc>*
 
 
 ## Aplicación
@@ -47,6 +49,10 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 - [ ]   Informa el tipo de estudio de caso<sup>[1](#myfootnote1)</sup>
 - [ ]   Describe las fuentes de datos (p. ej., los datos demográficos y los roles laborales de los participantes)
 - [ ]   Define la(s) unidad(es) de análisis
+- [ ]   Utiliza múltiples métodos de recolección de datos<sup>[*](#myfootnote5)</sup>
+- [ ]   El caso estudiado es contemporáneo<sup>[*](#myfootnote5)</sup>
+- [ ]   El caso está tomado de un contexto real<sup>[*](#myfootnote5)</sup>
+- [ ]   Los investigadores no toman un rol activo en el caso estudiado<sup>[*](#myfootnote5)</sup>
 
 <results>
 
@@ -71,7 +77,7 @@ con un contexto limitado, considere el **Estándar de Ciencia de Datos Explorato
 - [ ]   Utiliza citas para *ilustrar* hallazgos<sup>[4](#myfootnote4)</sup>
 - [ ]   O BIEN: evalúa una teoría a priori (o modelo, marco, taxonomía, etc.) utilizando codificación deductiva con un esquema de codificación a priori basado en la teoría anterior
         O: sintetiza los resultados en una teoría (o modelo, etc.) nueva, madura, completamente desarrollada y claramente articulada utilizando alguna forma de codificación inductiva (esquema de codificación generado a partir de datos)    
-- [ ]   researchers reflect on their own possible biases
+- [ ]   Los investigadores reflexionan sobre sus propios sesgos
 </checklist>
 
 ### Atributos Extraordinarios
@@ -185,11 +191,10 @@ and method. *European Journal of information systems.* 4,2, 74–81.
 Robert K. Yin. 2017. *Case study research and applications: Design and
 methods*. Sage publications.
 
-## Ejemplares
+Wohlin, C., 2021. Case study research in software engineering—it is a case,
+and it is a study, but is it a case study? Information and Software Technology 133, 106514.
 
-Adam Alami, and Andrzej Wąsowski. 2019. Affiliated participation in open
-source communities. In *2019 ACM/IEEE International Symposium on
-Empirical Software Engineering and Measurement (ESEM)*. 1–11
+## Ejemplares
 
 Michael Felderer and Rudolf Ramler. 2016. Risk orientation in software
 testing processes of small and medium enterprises: an exploratory and
@@ -203,10 +208,6 @@ Transactions on Software Engineering and Methodology (TOSEM).* 11, 3
 Helen Sharp and Hugh Robinson. 2004. An ethnographic study of XP
 practice. *Empirical Software Engineering.* 9, 4 (2004), 353–375.
 
-Diomidis Spinellis and Paris C. Avgeriou. Evolution of the Unix System
-Architecture: An Exploratory Case Study. *IEEE Transactions on Software
-Engineering*. (2019).
-
 Klaas-Jan Stol and Brian Fitzgerald. Two's company, three's a crowd: a
 case study of crowdsourcing software development. In *Proceedings of the
 36^th^ International Conference on Software Engineering*, 187–198, 2014.
@@ -216,4 +217,5 @@ case study of crowdsourcing software development. In *Proceedings of the
 <footnote><sup>[2](#myfootnote2)</sup> Direct observation means watching research subjects without getting involved; participant observation means joining in with whatever participants are doing</footnote><br>
 <footnote><sup>[3](#myfootnote3)</sup> L. Harvey. 2015. Beyond member-checking: A dialogic approach to the research interview, International Journal of Research & Method in Education, 38, 1, 23–38.</footnote><br>
 <footnote><sup>[4](#myfootnote4)</sup> Las citas no deben ser *la única* representación de un hallazgo; cada hallazgo debe describirse independientemente de las citas de apoyo)</footnote><br> 
+<footnote><sup>[*](#myfootnote5)</sup> Cuatro atributos esenciales han sido agregados por los traductores al español teniendo en cuenta el análisis realizado en Wohlin (2021)</footnote><br>
 </standard>
